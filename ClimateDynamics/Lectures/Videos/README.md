@@ -1,1 +1,1 @@
-# this is the set of lecture videos uploaded
+# This directory contains materials relevant to video lectures
