@@ -1,0 +1,34 @@
+# Climate as a fluid (maintain Earth’s thermal equilibrium; to understand the system, we need to understand fluids)
+
+In this video we will introduce a concept and a way of thinking about Earth’s climate that might not be familiar to all of you; that is, that the majority of Earth’s climate system operates and behaves as a multi-phase fluid, and that if we want to understand this fluid system, we need to start by understanding fluids.
+
+So you should be aware of the fact that the climate system is comprised of 5 interacting “spheres”; the atmosphere, hydrosphere, cryosphere, lithosphere and biosphere. Processes that occur in one of these spheres affects the behaviour in one or more of the other spheres, and so the overall climate itself is a complex dynamical system. The relative importance of one or another sphere to a particular climate process really depends on that particular process; these spheres tend to operate on different timescales to one another and exhibit variability (forced or intrinsic) of different amplitudes. So this is what the climate system is; but the real question here is what does it all do? What is the purpose of the climate?
+
+For this question, we could find a text book, or we can ask AI to help us.
+
+The primary job of the climate system is to balance the radiation budget and thereby maintain Earth’s thermal equilibrium; specifically, the climate system moves heat from the equator to the poles.
+
+What do I mean by this? Let’s zoom way out and try to picture the Earth-sun system. The surface of the sun is hot, like 6000 kelvin, and it emits thermal electromagnetic radiation in all directions that radiates out as an approximate sphere; close to the sun, the amount of energy per square meter is huge, because the surface area of the sphere is close to that of the sun, but as you get further away from the sun, the radiation is spread over a much larger spherical surface area, and so its energy per square meter decreases. As the distance from the sun continues to grow, the curvature of the sphere decreases; by the time the solar radiation reaches Earth, the curvature of the sphere is so small that the incoming radiation is basically uniform flat plane wave.
+
+
+
+
+The incoming solar radiation that reaches Earth near to the equator comes in at a normal angle to the ground, 90 to Earth’s surface. So 1 square meter of incoming solar radiation maps onto 1 square meter of Earth’s surface. The radiation that reaches the polar regions, however, comes in with much more of a glancing angle, so that 1 square meter of incoming solar radiation maps onto more like 10 square meters at Earth’s surface.
+
+ So, per square meter on Earth’s surface, the equator receives relatively more incoming solar radiation than the polar regions. An important concept to note here is that all of Earth’s surface receives incoming solar radiation (not everywhere all at the same time; night time for instance); it is just that the equator receives relatively more than the poles.
+
+Another way to show this is to plot it up- if you plot the amount of incoming solar radiation reaching the surface as a function of latitude, you might get something that looks like this; positive everywhere, but larger amplitude at the equator relative to the poles.
+
+
+
+
+So that is the incoming solar radiation reaching Earth; this needs to be balanced by an equivalent amount of radiation outgoing from Earth back to space; if the incoming and outgoing radiations are not balanced, the average temperature of Earth will change. So what is the outgoing radiation? Well, Earth’s surface is around 290 kelvin, so it too is emitting thermal electromagnetic radiation just like the sun, but the amount is much less because Earth’s temperature is much less than the sun. This radiation, which is called blackbody radiation, is emitted by all objects that have non-zero absolute temperature; and the amount of radiation is proportional to the body’s temperature. So for Earth; at the equatorial regions, the temperature is around 300 kelvin, while at the poles the temperature is around 270 kelvin. That is, in kelvin, there isn’t a whole lot of difference between the equatorial and polar temperatures, and so, there isn’t going to be a whole lot of difference between the outgoing terrestrial radiation from the equator and the poles. Certainly much less of a difference than that which is incoming.
+
+
+
+
+
+So, if you were to plot up the incoming and outgoing radiations together by latitude, you’ll find that there is a radiation excess at the equatorial regions, and a radiation deficit at the poles. What this means is that the equatorial regions should be getting hotter and hotter due to this radiation excess, and the poles should be getting colder and colder due to their radiation deficit. But we know they aren’t; they have had plenty of time to equilibrate, and their temperature are fairly constant, which means something is operating to balance this radiation budget; something is taking the excess heat at the equator and moving it to cover the deficit at the poles. This is the climate system; it takes excess heat from the equator and relocates it to the poles. 
+
+The processes by which the climate system achieves this redistribution of heat predominantly occur in the atmosphere, hydrosphere, and cryosphere, which are all intrinsically fluid systems, and to best understand them we should first build up our backgrounds in fluid dynamics. So for the next couple of weeks in the course, we will be covering some basics of fluid dynamics and work up to seeing the role that these principles play in Earth’s climate system.
+
