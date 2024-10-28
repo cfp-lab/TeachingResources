@@ -6,3 +6,4 @@ In each video directory there are:
 - transcript
 - important images (referenced where possible)
 - background slides (pdf and tex if possible)
+- list of available video clips (direct message for links)
