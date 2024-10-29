@@ -1,0 +1,75 @@
+Navier-Stokes equation - relate it to the conservation of momentum
+
+In this video we continue looking into the fundamental governing principles of fluid dynamics, and we consider the fluid equivalent of another well-known law of conservation; the conservation of momentum. Remember that for a solid object, its momentum is its mass times its velocity, and an object’s change in momentum requires the object to experience a force. This comes from Newton’s 2nd law, force equals mass times the acceleration. We can check this by differentiating the expression for momentum; p = mu, dp-dt = d(mu)/dt, and if the mass is constant, dp-dt = m.du-dt, where the du-dt is just the acceleration a, so we get dp-dt = ma.
+
+So how does this relate to fluids?
+
+Well, to start off with, we need to put it in terms of useful quantities. Because we tend to use density instead of mass, we need to divide the force by the volume, so we have d(m/V.u)-dt = F/V = d(rho.u)-dt. If we continue using the assumption of incompressibility, this is now rho.du-dt = F/V
+
+Note that this derivative here is the total time derivative operator that we saw in the last video; we use this because we are in a Eulerian frame of reference, looking at the accelerations at a fixed point in the fluid.
+
+We also want to be careful here and start distinguishing between which properties are vectors and which are scalers; here, the force and the velocity have directions, so we’ll bold them.
+
+So, what are the forces that can operate on a fluid? There are two types of relevant force- body forces (operate throughout the fluid) and surface forces (operating on the fluid surface).
+
+We’ll start with the body force and consider another control volume V, with a surface S and unit normal n, and containing fluid of density rho.
+
+The primary body force experienced by a fluid is gravity, which operates to accelerate the fluid locally downwards. Later we will see other types of body forces, but for now we’ll just stick with gravity.
+
+Gravity - vector g that in 3D is 0 in x, 0 in y and -g in z.
+
+The volume normalised force associated with gravity is F  on V = rho g.
+
+So we now look at surface forces. These are stresses that act on the boundary of our fluid element; these can be normal to the surface (so that it pushes in or pulls out), or parallel to the surface (so that it shears the fluid surface). The normal force is pressure and the parallel forces are viscosity operating on the fluid surface.
+
+So there are two distinct surface forces, which have different directions relative to the surface S, and the unit normal n also has different directions that depend on the surface S. The most general way to describe the surface forces is then by the dot product of a stress tensor sigma and the unit normal n.
+
+This tensor describes the surface stresses in terms of their respective directions; stress has a direction, and it operates on a surface, which also has a direction represented by the unit normal n.
+
+The stress tensor sigma_ij is the force acting in direction j on the surface with normal vector i. So for our 3D control volume V, it has surfaces with faces with unit normals n in the x,y,z directions. And each of these faces experience stresses that have orientations in the x,y,z directions. This gives us a total of 9 components in our stress tensor.
+
+At this point it can be helpful to think of sigma at this point as a 3x3 matrix; the diagonal terms are the stresses acting in the same direction as the unit normal, which we know are pressure, and the off diagonal terms describe viscous shear stresses, which will depend on the velocity gradients in the fluid.
+
+So lets take this expression for stress and gravity force and go back to our Newton’s 2nd law and substitute in our two forces for F. We do this in the Lagrangian frame of reference because our control volume V is Lagrangian. Now at this point we don’t know what the individual terms of sigma are, but we won’t worry about that just yet.
+
+With our rate of change of momentum, we want to know this over our entire control volume, so we integrate it in V. We do this to the other side too; the gravitational force is the volume integral of rho times g, and because the stress operates only on the surface, the integral over the entire control volume is actually just the surface integral of sigma dot n.
+
+We apply Leibniz’ theorem in 3 dimensions to the left hand side, giving the rate of change of the volume integral of rho u as the volume integral of rate of change of rho u plus the surface integral of rho u times the component of u normal to the surface, which is given by u dot n).
+
+Because our two surface integrals are dot products of the unit normal, they are amenable to Gauss’ theorem and are able to be expressed as volume integrals; the one on the left hand side needs the chain rule too, and becomes u dot grad of rho u and rho u times the divergence of u, and the one of the right becomes the divergence of sigma.
+
+Now we take our control volume to the limit of V tends to zero, which removes the volume integral.
+
+Now this second term on the left hand side can be expanded to be the u velocity times the x derivative of rho vector u plus the v velocity times the y derivative of rho vector u plus the w velocity times the z derivative of rho vector u. So this expanded form combines with the first term, the rate of change of rho vector u, to become the total time derivative capital D-Dt of rho vector u.
+
+We can apply the product rule to this first term and separate rho and u; so on the left hand side we get rho times the total time derivative of u plus u times the total time derivative of rho plus rho u times the divergence of u. We group these second and third terms, and expand the total time derivative of rho to give us the rate of change of rho plus u dot grad rho plus rho times the divergence of u.
+
+We have seen this bracketted expression before; we came across it when deriving the continuity equation, and we know from there that if mass is conserved, this expression must equal zero. So we can get rid of it, leaving us the density times the total time derivative of u is equal to the rho g plus the divergence of the stress matrix sigma.
+
+This is the general form of what we call the navier stokes equation, which comes about through the conservation of momentum in flowing fluid. We see that the change in momentum given on the lefthand side equates to the body force, rho times gravity, and the surface force, the divergence of this stress matrix sigma. So what is sigma, and can we get this expression into a more user friendly form?
+
+Let’s first consider what the terms mean; they are the stresses operating on the surface, in the directions relative to the surface. In this form it makes sense that the normal surface force, pressure, exists on the diagonal of sigma, with the parallel surface forces, viscous forces, filling the rest of sigma. So we can separate sigma into the components representing pressure and viscosity, and then start by having a look at pressure.
+
+What we have just seen is that the force associated with pressure is going to be related to the divergence of pressure. Given that there are no off-diagonal terms related to pressure, the divergence of the scalar pressure is simply negative grad P. This negative is important; it tells us that the force associated with pressure is directed down the pressure gradient, from high pressure to low pressure. You probably have already have an intuitive understanding of this; if you imagine two identical buckets connected by a pipe at their base, there is only flow through the pipe if there is a pressure difference at either end of the pipe, so when the buckets are filled at different levels.
+
+Now lets look at viscosity. It is a bit more complicated than pressure, so we’ll start with an idealised intuitive example.
+
+Imagine a fluid flowing near a boundary, and parallel to that boundary. There is a no-slip condition at the boundary, so flow at the boundary is zero, and as you move away from the boundary, the flow increases as such. Because the flow is increasing away from the boundary, fluid is experiencing a shear stress, tangential to its surface, and proportional to the gradient of the velocity. The proportionality coefficient is the dynamic viscosity mu, this is an intrinsic property of the fluid, and we refer to this shear stress as tau. Note that there doesn’t actually need to be a boundary for shear stress; it just needs velocity gradients in the fluid flow.
+
+Now if you imagine a tiny parcel of fluid in this velocity gradient region, it experiences as shear stress at its top which is proportional to the velocity gradient at its top, and another shear stress at its bottom, which is proportional to the velocity gradient at its bottom. The directions of these stresses are opposite, because the fluid above is faster and the fluid below is slower.
+
+If the velocity gradients at the top and bottom are equal, these shear stresses are equal and opposite, and thus balance. The parcel might spin, but there is no net shear, so no net force, so it won’t accelerate in u. However, if the gradients are not equal at the top and bottom, there will be a net shear and a net force. That is, for there to be a viscous force imparted into the fluid, there needs to be curvature in the velocity field; the second spatial derivative of velocity needs to be non-zero.
+
+So this gives us an expression for the viscous force, F tau, which in our example here is equal to the y derivative of tau, or mu times the second y derivative of u.
+
+This is just the simplest case in as few a dimensions as possible. Fluid flow will tend to be 3 dimensional, so we can repeat this exercise in the x and z directions, and come up with a more complete expression for the viscous force F tau as being equal to mu times the sum of the second x - y - and z derivatives of u, which is the mu time the laplacian of u.
+
+This is the force that is going to be operating to change the u velocity of the fluid. Next, we can repeat this exercise again to find the viscous force that changes the v velocity, and the w velocity; each as mu times the laplacian of the respective velocity.
+
+So the total force associated with viscosity F tau has components in the x, y and z directions that are mu times the laplacian of u, laplacian of v and laplacian of w, or mu laplacian of vector u.
+
+This equals the divergence of the sigma tau, the component of the stress matrix corresponding to viscous forces. As an exercise one could go through and fill out this matrix to see what sigma tau actually looks like, but we’ll tend to avoid using it is this form and just stick with the laplacians that represent viscous forces.
+
+So now our navier stokes equation has three useful terms on the right hand sie; gravity, pressure and viscosity. Now of course this actually represents three equations, one in x, one in y and one in z.
+
+And while they might look a bit intimidating, we’ll typically only use a couple of terms at a time, so this get simplified very quickly.
