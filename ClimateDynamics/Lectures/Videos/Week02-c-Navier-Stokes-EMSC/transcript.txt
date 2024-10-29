@@ -1,0 +1,55 @@
+Navier-Stokes equation - relate it to the conservation of momentum
+
+In this video we continue looking into the fundamental governing principles of fluid dynamics, and we consider the fluid equivalent of another well-known law of conservation; the conservation of momentum. 
+
+Remember that for a solid object, its momentum is its mass times its velocity, and an object’s change in momentum requires the object to experience a force. This comes from Newton’s 2nd law, force equals mass times the acceleration. We can check this by differentiating the expression for momentum; p = mu, 
+
+The rate of change of momentum dp-dt in equal to the rate of change of m times u, and if mass is constant, the rate of change of momentum becomes the mass times the rate of change of velocity, which is the acceleration a, so we get dp-dt equals ma.
+
+So how does this relate to fluids?
+
+Well, to start off with, we need to put it in terms of useful quantities. Because we tend to use density instead of mass, we need to divide the force by the volume, so we have d(m/V.u)-dt = d(rho.u)-dt = F/V.
+
+If we continue using the assumption of incompressibility, this is now rho.du-dt = F/V
+
+We want to keep this general, so we use the total time derivative operator that we saw in the last video; we use this because we want to be able to stand in a Eulerian frame of reference, looking at the accelerations at a fixed point in the fluid.
+
+So, what are the forces that can operate on a fluid? There are two types of force- surface forces (operating on the fluid surface), and body forces (operate throughout the fluid).
+
+Surface forces can act normal to the surface (so that it pushes in or pulls out), or parallel to the surface (so that it stresses the fluid surface).
+
+The normal surface force is pressure; it is the force pushing or pulling on a fluid surface normal to that surface. The parallel surface force are viscosity operating on the fluid surface. So there are two distinct surface forces.
+
+The primary body force experienced by a fluid is gravity, which operates to accelerate the fluid locally downwards. Later we will see other types of body forces, but for now we’ll just stick with gravity.
+
+So this tells us that there are going to be 3 forces, 3 terms, on the righthandside of the equation. Let’s have a look at how these three forces operate to change the momentum of a fluid.
+
+We’ll start with the pressure force. Imagine a fluid in a pipe of length L that connects the bottom of two identical buckets. The bottom pressure in each bucket depends on how full it is, it depends on the weight of all the fluid above it. When you let it settle, the water level in the buckets will be at the height, and there will be no flow through the pipe. That is, the pressures experienced by the fluid at either end of the pipe are equal to one another and balance, such that there is no net force to accelerate the fluid.
+
+You can fill up both buckets together and increase the pressures at bottom of each bucket; but the pressures still balance, so there is still no flow. The pressures have increased, together, but there isn’t a pressure difference, so there is no flow. 
+
+Now if you just filled one of the buckets, you’ll increase the pressure at the bottom in bucket 1 here, and the bottom pressures will no longer balance; there will be a pressure difference through the pipe, which will accelerate the fluid in the pipe.
+
+The magnitude of the force experienced by the fluid in the pipe depends on the size of the pressure difference, say P1 - P2, and inversely on the distance separating these pressure differences, the length of the pipe L, which is equivalently written as L = x1 - x2. This pressure difference over a length can be expressed as a pressure gradient, dP-dx.
+
+Importantly; it is the change in pressure that leads to the acceleration, not necessarily the magnitude of the pressure itself. Here we have only considered one dimension (the x dimension), and pressure gradients can exist in the y and z directions. However, the pressure force in the x direction is independent of pressure gradients in the y and z directions, so we can treat each direction separately; pressure gradient in x drives flow in the x direction only.
+
+Now we will consider the viscous force. I’m sure many of you have enjoyed the experience of watching an insect crawl across your windscreen while driving on the highway and wonder how can it possibly hang on to the glass at 100 ks an hour? Well, very close to rigid boundaries, like a windscreen, fluid tends to at rest with the boundary, which is a concept we refer to as a “no-slip” boundary condition. The insect isn’t actually experiencing any force because the air it is in is stationary relative to the windscreen. However, if it jumps to get out of the way of the windscreen wipers, it’ll very quickly be accelerated to the velocity of the air away from the car. For the bug to be accelerated to this new velocity, it must experience a force, which is viscosity..
+
+So for fluid flowing near a rigid no-slip boundary; the surface-parallel velocity profile might look something like this; zero at the boundary, and gradually increasing away from it. Fluid that is located near to the boundary at y1 flows with velocity u1; and fluid located at y2, has a larger velocity u2. The difference in velocities between y1 and y2 mean that there is a shear stress between y1 and y2. The magnitude of the shear stress depends on the difference in surface-parallel velocities at y1 and y2, and inversely on the distance separating y1 and y2. That is, the shear stress experienced by the fluid depends on the difference in velocities, u1-u2, and inversely on the distance y1-y2. Once again, just like in the case of pressure, the shear stress can be expressed as being dependent on a gradient, although this time it is a gradient of u velocity in the y direction. In this case, however, there is an additional fluid property that needs to be incorporated into this expression to make it equate rather than simply proportional; this property is the dynamic viscosity of the fluid, mu. So we can write the shear stress tau and being equal to mu times du-dy. Note that we don’t necessarily need to be near a boundary for shear stress to exist; we just need a gradient in the velocity field.
+
+Now, tau is the shear stress that operates tangentially or parallel on the surface of the fluid. Imagine a tiny parcel of fluid inside this region. The top edge has a shear stress tau that points in this direction, because the fluid above it is going faster. The bottom edge also has a shear stress tau, only it points in the opposite direction, because the fluid below it is going slower. If the gradient in the velocity is the same at the top and bottom of the parcel, these two shear stresses are equal and opposite, and balance. That is, there is no acceleration of the parcel due to the shear stress. It might cause the fluid parcel to spin, but it won’t change the u velocity of the parcel. So for a viscous force to accelerate the fluid we need there to be a difference in the shear stress at the top and bottom edges of the fluid parcel. Another way of saying that is that we need the gradient of the velocity gradient to be non-zero.
+
+We can write this expression as the viscous force experienced by the fluid parcel as being equal to the y-gradient in tau, which is equivalent to mu times the second y-derivative of the u velocity.
+
+In general, the fluid is typically 3-dimensional, and the u-velocity can also vary in the x and z directions. We can repeat this above exercise in those dimensions to obtain additional terms describing how shear stress and viscosity can lead to u-accelerations in the fluid. Then that gets repeated for the v velocity and w velocity too.
+
+This gives us our complete description of the viscous forces experience by a fluid parcel in a flow with spatial gradients. It might seem a bit complicated here, but for our purposes in this course we’ll tend to use only one of these components, if at all.
+
+We now look at the body force, gravity. The gravity is already given as an acceleration, and so the gravitational force is F = m*g, which for a fluid is normalised by volume to be F on V = rho*g. Now we know that gravity only operates in the vertical direction and downwards, so we can ignore it when considering the horizontal forces.
+
+So let’s collect our surface and body forces and plug them back into Newton’s 2nd law equation, F = ma, or F/V = rho*du/dt. To keep it simple, we’ll keep each of the forces in the three different directions separate; so we end up with three expressions that looks like:
+
+Rho du dt equals the negative of the pressure gradient in x plus the dynamic viscosity of the fluid times the sum of second spatial derivatives of the u velocity in the x y and z directions, which collectively is the viscous force, an equivalent expression for the v velocity in the y direction, and final expression for the w velocity in the vertical z direction, which also includes the gravitational force.
+
+These are the Navier-Stokes momentum equations for fluids. These describe the relationship between the change in fluid momentum as functions of the pressure, viscous and gravitation forces it experiences. These equations play an important role in our understanding of climate dynamics, which we are about to see. And whilst they may look like a bit of a handful, whenever we work with them we very rarely use more than two terms at a time, so things become much simplified pretty quickly.
