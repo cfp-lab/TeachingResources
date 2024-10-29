@@ -1,0 +1,34 @@
+This video examines the centripetal term that popped out of the transform between inertial and rotating frames of reference.
+
+Following on from the last video, here we have the Navier-Stokes momentum equation in terms of the velocities in the rotating reference frame, u_r, which includes the coriolis term and the centripetal term.
+
+From basic vector calculus, a triple vector cross product can be expanded like so, giving the difference of two dot products,
+
+For the centripetal term this becomes omega outside omega dot x - x outside of omega dot omega, where omega describes the rotation of the reference frame, and x is some vector.
+
+Cast in terms of the rotating reference frame, x consists of a component that is along the axis of rotation, z, and a component that is perpendicular to the rotation axis, r.
+
+It is useful to make the substitution for x with z and r.
+
+Now recall that r and omega are orthogonal so their dot product is zero, z and omega are in the same direction, so the omega-omega-z here is the cancelled by the z-omega-omega there, leaving just the radial component and omega squared.
+
+We can go one step further and express this as a gradient of a potential in r. We do so by integrating and differentiating the righthand side in r, returning the centripetal term as equal to the negative of the divergence in radius squared by omega squared over two.
+
+Recall that there is another term in the navier stokes equation is also a potential in r; gravity.
+
+As a potential in r, the centripetal term can now be combined with the gravity term to define a geopotential term, phi, where phi_g represents the gravitational potential.
+
+%This geopotential can be though of as g-star the gravity corrected for centripetal accelerations.
+
+Physically, this geopotential term combines the local gravity with the local centripetal accelerations by considering the radial distance to the axis of rotation.
+
+So for Earth, this term is a minimum at the poles, where you are on the axis of rotation, and a maximum at the equator, and varies between them as a function of latitude.
+
+Now, over billions of years, Earth has shaped itself such that its surface reflects this geopotential; Earth isn't perfectly round but is actually oblate, so that for studying something like the ocean, the ocean surface already follows a geopotential, thus already accounting for the influence of centripetal acceleration.
+
+We substitute this back into the Navier-Stokes equation to recast the momentum equations in terms of the centripetal-corrected gravity.
+
+% Luckily for our purposes, Earth has shaped itself over billions of years to reflect this geopotential; Earth is not round but actually oblate, so that for studying something like the ocean, the ocean surface already follows a geopotential, such that at the Equator it is several km further away from the centre of Earth than it is at the north pole, and we can often ignore the influence of centripetal accelerations.
+
+
+
