@@ -1,0 +1,24 @@
+Intro to stratification and buoyancy frequency
+
+Last time we saw how we handle the fact that the density of a fluid can change, and that those small changes in density can have an effect but only when they operate on the big terms, gravity and pressure. Here we are going to have a look at what those effects can lead to, and introduce you to the concept of a buoyancy frequency, which is the natural frequency of oscillation of a stratified fluid.
+
+Let’s imagine we have a fluid that has a background vertical density gradient, so that the density changes linearly with depth from some large density at the bottom to a small density at the top. The change is linear with depth, so that if you drew a plot of the density with depth it looks like this, with a density gradient of drho-dz = constant.
+
+Now we are going to take a parcel of fluid and move it upwards some distance n. This parcel is heavier that its surrounds, and has a density anomaly rho’ that is given by the strength of the density gradient times the vertical distance it is displaced, rho’ = (drho-dz)*n.
+
+Because it has a density anomaly relative to its surround, the parcel is going to experience a gravitational acceleration that is -(rho’/rho_0)*g, and that this force is going to lead to a change in it vertical velocity, dw/dt, so that the acceleration in w is equal to minus rho prime on rho 0 times g which equal g on rho 0 times the vertical gradient of density times the displacement n.
+
+Remember that the rate of change of the displacement n, dn-dt, is just the vertical velocity of the parcel w, so that this expression can be rewritten in terms of n;
+
+d2n-dt2 = dw-dt =  (g/rho_0)*(drho-dz)*n
+
+Which you may or may not recognise as a wave equation, which describes the fluid parcels motion.
+
+So this fluid parcel will be accelerated back towards its level of neutral buoyancy, where it started, but it won’t experience any upwards force to slow it down until it passes through its level of neutral buoyancy, overshooting its mark, and then experiencing an upward acceleration because it now is too light compared to its surrounds. 
+
+The terms multiplied by n on the right hand side are grouped together and called N2, the buoyancy frequency or brunt-vasaila frequency, and it is the natural frequency of oscillation of a stratified fluid. You can see that it is directly proportional to the strength of the density gradient, and independent of the displacement n.
+
+We can see this frequency in action in one of the videos from last week; here I set up a stratified environment and dropped some dye crystals into it. The disturbances from these crystals oscillated about for some time, all with the same frequency.
+
+So stratification is an important phenomena that we need to consider when we study the climate system. It provides fluid bodies with internal structure that supports and permits processes and dynamics to occur within the fluid and not just at the boundaries or as the bulk. It is vital for the overturning circulations of the ocean and atmosphere, and plays an governing role in partitioning energy between these two climate system components.
+
