@@ -1,0 +1,49 @@
+Boussinesq approximation and equation of state
+
+Last time we took the vertical component of the navier stokes momentum equation and looked into its leading order terms and discovered the hydrostatic balance, which says the pressure difference between two points separated vertically is related to the mass of the fluid between the points, which is the vertical integral of its density times gravity. Here we are going to explore how the density of a fluid can change, and the effect that it can have.
+
+You should all be familiar with the concept that hot air rises, and cold air sinks. You’ll experience this every time you open a fridge wearing thongs, or open an oven to peek in on your lockdown sourdough. But what is it about the temperature of a fluid that causes it to rise or sink?
+
+The molecules that make up a fluid are in a constant state of nanoscopic motion, and the vigourousness of this motion is reflected in the temperature of the molecules. Warmer molecules have more energetic nanoscale motions, and tend to occupy a larger volume, and therefore decrease the overall density of the fluid. Colder molecules are less energetic and occupy less volume. The influence of the fluid temperature on its density is quantified empirically by running experiments that accurately measure a fluid’s temperature and density, and fitting a function to the relationship.
+
+The simplest function is one that describes a linear dependence; that is, the density of a fluid at a given temperature is some reference density rho 0 times the difference between the temperature and some reference temperature T 0 times some empirically derived coefficient alpha.
+
+For water, which has a reference density of 1000 and a reference temperature of 20oC, this coefficient alpha is equal to 2 time 10 to the -4, and we call it the thermal expansion coefficient.
+
+This simple linear relationship is fine for most cases, especially for temperatures around 20oC.
+
+Another factor that affects the density of water is its salinity or salt concentration. If you mix salt into water, the density of the solution increases. Again, the relationship between the density of a solution and its salt concentration is derived empirically, and is often simplified to have a similar linear form of temperature depencence, where the density of fluid at some salinity is equal to the reference density times the difference between the fluid salinity and the reference salinity, times a coefficient beta which we refer to as the haline contraction coefficient. 
+
+Salinity is defined as grams of salt per kilo of solution, often referred to a practicacal salinity units (psu), and the value of beta is approximately 0.7 kilo per gram. For convenience, our reference salinity is s = 0
+
+Combining the equations for the temperature and salinity dependence gives us a simple equation for the density of water that is,
+
+rho(T,S) = rho_0*(1 + alpha(dT) + beta(dS))
+
+This is referred to as an equation of state. This is a simple linear equation of state; in reality the equation of state is more complicated than this, but this one here should work for our purposes.
+
+So when do we need the equation of state? When do changes in the fluid density come into play in Earth’s climate? First of all, we need to know how much the density can actually vary, and we’ll use the ocean as an example. Take temperature; the range of temperatures in the ocean span about -2 to 32oC between the poles and equator, and the sharpest of thermal ocean fronts might have the temperature varying locally by about 5oC. 
+
+Lets take the upper limit- the change in density due to a 30oC change in temperature is about 6 kilo per cubic meter, which is a relative change of about 0.6% in density. It is tiny.
+
+For salinity, if you imagine a fresh river flowing into the ocean you might get a change of salinity close to 35 psu, which is a density change of 24kg/cubic meter, or a 2% in density. Again, this is rather small.
+
+These tiny changes in density mean that in order for the density variations to have any meaningful effect, they need to be operating on the leading order terms, the biggest terms, which we know from last time are the gravity and pressure terms. So let’s allow density to vary a little bit, and write it as rho = rho_0 + rho’, where rho’ is tiny compared to rho_0.
+
+We’ll put this new expression for density into the vertical navier-stokes momentum equation, and we won’t worry about the viscosity terms because they don’t feature density anyway. So our modified expression is, 
+
+(rho_0 + rho’)*dw-dt = -d(P_0+P’)-dz + mu (d2w-dx2 + d2w-dy2 + d2w-dz2) + (rho_0 + rho’)*g
+
+Where we need pressure to decompose the pressure term too because it depends on the decomposed density.
+
+We expand out the reference and anomaly components, and have a look at what remains.
+
+The only places where the tiny terms matter are where they are operate on gravity and pressure, so we can get rid of the rho prime term on the left hand side.
+
+Remember that the leading order balance in this system is the hydrostatic balance, which is in here as reference density times gravity and the vertical gradient of reference pressure; these terms balance at the zeroth order, so we can get rid of them, and only consider the dynamics of what remains.
+
+We’ll also divide everything through by the reference density rho 0.
+
+The term (rho’/(rho_0))*g is referred to as reduced gravity or g’. 
+
+This approximation that the density differences are much much smaller than the reference density is called the bousinnesq approximation, and it makes our lives a lot easier. So we’ll continue to use this approximation as we go forward.
