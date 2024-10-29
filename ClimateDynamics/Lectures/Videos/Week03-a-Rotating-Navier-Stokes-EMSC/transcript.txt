@@ -1,0 +1,21 @@
+Derive the Navier-Stokes in a rotating frame of reference
+
+Last week we went through the exercise of taking a couple of basic physical laws, the conservation of mass and conservation of momentum, and applying them to fluids, and saw some of the implications for fluids on the climate scale. We discovered the hydrostatic balance, the effects that small variations in density can have on large-scale fluid systems, learned a bit more about stratification, and got a physical introduction to the buoyancy frequency.
+
+This week we are going to introduce another aspect of fluid dynamics that also has major implications for Earth’s climate; rotation. 
+
+Specifically, the effect that Earth’s background rotation has on the ocean and atmosphere systems, and the impact it has on their role in Earth’s climate.
+
+To understand the effect of rotation on Earth’s climate, we want to first see how rotation impacts fluids in general, so we are going to take a quick step back to the law of conservation of momentum from last week and begin here.
+
+This law, F = ma, got expanded out into the navier-stokes momentum equation, where the ma bits, the fluid accelerations, were on one side and the F bits, the forces operating on the fluid, were on the other. 
+
+In that case we found we could split the forces into three different forces; two surface forces, pressure and viscosity, and a body force, gravity. Now we want to add rotating into the mix, and when we do, a fluid in a rotating frame of reference experiences two additional forces, the centrifugal force, and the coriolis force.
+
+The centrifugal force is one that you might already be familiar with. This is the force that allows you to spin a bucket of water around over your head without fear of splashing anyone, or squish your sibling against the car door when going around a roundabout.
+
+It is directed radially away from the axis of rotation, and its strength depends on the rotation rate squared and the distance from the axis of rotation. In terms of the climate, the centrifugal force that arises due to Earth’s rotation doesn’t actually play much of a role, and I’ll explain why in the next video.
+
+The second new force, the coriolis force, is a much more important player in Earth’s climate. The coriolis force operates on an object’s velocity; specifically, the components of velocity that are perpendicular to the axis of rotation. So that is the velocities that move an object closer or further away from the axis of rotation, or velocities that act to move an object around the axis of rotation. The strength of this coriolis force depends on the velocity of the object and the rotation rate, and it is direction is normal to the direction of the velocity, left or right depends on which hemisphere you are in.
+
+The next couple of videos are going to take a closer look at these forces, and the role that they play in Earth’s climate.
