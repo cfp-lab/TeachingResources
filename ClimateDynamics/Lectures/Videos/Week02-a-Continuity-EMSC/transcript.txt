@@ -1,0 +1,50 @@
+Continuity equation - relate it to the conservation of mass
+
+In this video we begin our study of the basics of certain fluid dynamics and how they relate to Earth climate. To start off with, we want to consider a couple of the fundamental properties and laws that govern fluid dynamics.
+
+Now, in high school, you should have heard about a law relating to the conservation of mass; that is, if you take an object of mass m and divide it up into many parts of different masses, the sum of all the masses of all the parts will add up to the mass of the original object, m.
+
+For fluids, there is an equivalent concept that is referred to as "continuity". If you take a fluid and divide it up, the sum of all the masses of all the parts must be equal to the mass of the original fluid.
+
+Given that fluids, and in particular interesting fluids, tend to be in motion, this concept is most useful when defined in terms of a fluid mass flowrate M as opposed to a simple stationary mass. A mass flowrate M describes the total mass of a fluid flowing in a given amount of time; that is, mass flowrate M has the SI units of kg per second.
+
+For fluids, whenever we deal with the mass of a fluid, we tend to use its density, which is the mass of a fluid divided by its volume; density has the SI units of kg per cubic meter.
+
+To conceptualise continuity, imagine an idealised river in which water of density rho is flowing with a velocity u. The depth of this ideal river is D, and the width is W, so that the cross-sectional area of the river is D*W which equals A.
+
+The mass flowrate M of this idealised river is then the density of water times the velocity of the water times the cross-sectional area;
+
+Rho times u times A - the units of this are kg per m cubed times m per second times meter squared, which gives us our expected SI units for mass flowrate of kg per second. This quick units check is a form of dimensional analysis, which we’ll use again in this course.
+
+Now imagine that the river changes shape as it flows, such that the cross-sectional area at point 1 is different to the cross-sectional area at point 2. To ensure we conserve mass, or mass flowrate as the case may be, we need the mass flowrate at point 1 to equal the mass flowrate at point 2.
+
+That is, the density at point 1 times the velocity as point 1 times the area at point 1 equals the density at point 2 times the velocity as point 2 times the area at point 2.
+
+If it doesn’t, it means the total mass of water contained between points 1 and 2 must be changing; for our idealised case here, we can assume that the system is completely steady, and that the mass flowrate at points 1 and 2 are equal. This is a simple form of continuity, and we can simplify it even further by making the assumption that the density of the water rho isn’t able to change (that is, the water is incompressible, which is kind of true anyway), so that now continuity requires that the velocity at point 1 times the cross-sectional area at point 1 equals the velocity at point 2 times the cross-sectional area at point 2.
+
+This gives us a relationship between the velocity and cross-sectional area of a flowing fluid that maintains continuity.
+
+This is probably the simplest form of continuity. Reality is usually a bit more complicated than this, so we want to take this and expand it to a more general case. So imagine our ideal river is actually a pond, and it helps even more if it is a cube pond.
+
+The pond is fed by rain and runoff, and loses water by evaporation and leaking it into the ground.
+
+So each face can have an inflow and an outflow, which combine to give an average velocity at each each face, u1, u2, v1, v2, w1, w2.
+
+The sides of this cube pond are of length X, Y, Z, which are the distances between the points x1, x2, y1, y2, and z1, z2, respectively.
+
+So the pond volume is V = X*Y*Z.
+
+The net mass flowrate through each face is the fluid density times the velocity times the face area; rho*u1*Y*Z, rho*u2*Y*Z, etc.
+
+From our river example we have seen that if the mass flowrate through two opposite faces is out of balance, the mass contained between the faces will change.
+
+Now we have another couple of lateral faces to deal with, as well as the water surface and its leaky base; opposing faces can be in balance with one another, or they can be out of balance, but the important thing for the pond is the balance of all 6 of the faces.
+
+If the total mass flowrate into and out of the pond is in balance, the total mass in the pond is steady. If it is out of balance, the mass of water in the pond changes.
+
+So we add up all the mass flowrates differences from all the opposing faces, and assume these balance to equal zero, and assume that the density is constant. We want to take the volume average of this so we divide by the pond volume, and group the terms that have common denominators. This gives us an expression that has the u velocity difference on X plus the v velocity difference on Y plus the w velocity difference on Z. Remember that these lengths X, Y, Z are actually x1-x2, etc., 
+
+so what we have is the difference in velocities divided by the difference in lengths, which can be expressed as a derivative, du/dx. dv/dy dw/dz
+
+This is the general principle of continuity, and we’ll use it several times throughout the course.
+
