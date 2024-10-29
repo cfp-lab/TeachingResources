@@ -1,0 +1,26 @@
+Total time derivative 
+
+So we have just been introduced what the fluids equivalent of the conservation of mass is, a principle that we refer to as continuity, and we have seen that derivatives or gradients tend to play an important role in describing fluid behaviour. In the video here we are going to take a look at a particular type of derivative, the total time derivative, which is a subtle but important concept in fluid dynamics.
+
+To introduce the total time derivative, we are going to picture our idealised river again. Imagine that the flow in the river is steady, so that the mass flowrate through any cross-sectional area is uniform everywhere. Now, imagine that at some point in the system the river narrows, so that the cross-sectional area reduces. In order for continuity to be maintained, the water must flow faster through this narrower section.
+
+If you were a parcel of water being advected along by the river, along a path that we call a streamline, you would have a velocity that is initially steady where the river is of constant width, and undergo an acceleration as the river narrows, and a deceleration as the river widens again. So your velocity in time would look something like this, and your acceleration is captured by the rate of change of your velocity.
+
+This all makes good sense, and no need for a fancy type of derivative. This viewpoint, the point of view of a parcel of water flowing along with the river, is referred to as the Lagrangian frame of reference; you are moving along with the flow.
+
+Now instead of moving with the flow, imagine that you are fixed at a point somewhere in space within the river and you are describing the water flowing past you. We mentioned before that the idealised river system is steady, so at any given point the velocity of the water isn’t changing in time; so that at any given point the derivative du-dt is zero, including these points where the river is changing its width. This is counter to what we just saw when we were a parcel being advected along with the flow. So how can this be?
+
+Well, if we were back at our fixed point in the river, lets call it point i, and we now look at the velocity of the water at a point immediately upstream of us (i-1), and a point immediately downstream of us (i+1), we would see that those velocities are slightly different. They are steady, time-independent, but different to the velocity at our point here.
+
+The amount that the velocity changes between points du depends on distance between the points dx, which is a gradient; du-dx. This is the spatial gradient of the velocity, it tells us how much the velocity changes as we move forward in the x direction. Now the time that the fluid takes to travel between the points is dt; and we can express the velocity at our point as the distance between the points divided by the time taken to travel between the points, u = dx-dt. So while we have the spatial gradient of velocity at our point, what we are really after is the temporal gradient of velocity, the acceleration at this point, 
+
+which we can get by multiplying the spatial gradient by the velocity u * du-dx. As an idiot check we can express it as du-dx * dx-dt and see that the distances between the points do indeed cancel, and that we are left with du-dt.
+
+This term, u*du/dx, represents the acceleration associated with the u velocity between two x points. We know many real flows are three dimensional, and that the u velocity can also change in the y and z directions. So we can do a similar exercise to express the change of u velocity between two y points, and between two z points; these terms become v*du-dy and w*du-dz, respectively. The sum of all these terms come together to describe the u velocity and how it is changing in x, y and z at a fixed point in space; now here we initially assumed the u at that fixed point was steady, but it in reality it can change in time, so we’ll include that term here too.
+
+So from a fixed point of view, the x acceleration can be written as du-dt + u*du-dx + v*du-dy + w*du-dz. This operator is often written in shorthand as Du-Dt, and referred to as the total time derivative. It describes the accelerations experienced by a fluid at a fixed point in the flow, which is referred to as a Eulerian frame of reference.
+
+This frame of reference is how basically all numerical simulations of fluid circulations are performed, especially those relevant to the climate; the ocean and atmosphere are discritised into a total number of fixed points, and the equations of motion are solved and timestepped at these fixed points.
+
+Now of course I’ve only done this for the flow in the x direction; we could go through and repeat it for flow in the y and z, but it is essentially the same exercise. Here are the total time derivatives for these two directions, as well as the total time derivative operator.
+
