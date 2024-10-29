@@ -1,0 +1,27 @@
+Continuity equation - relate it to the conservation of mass
+
+In this video we begin our study of the basics of certain fluid dynamics and how they relate to Earth climate. This recaps some of what you saw in Classical Mechanics. To start off with, we want to consider a couple of the fundamental properties and laws that govern fluid dynamics.
+
+Now, in high school, you should have heard about a law relating to the conservation of mass; that is, if you take an object of mass m and divide it up into many parts of different masses, the sum of all the masses of all the parts will add up to the mass of the original object, m.
+
+For fluids, there is an equivalent concept that is referred to as "continuity". This is akin to the conservation of mass- if you take a fluid and divide it up, the sum of all parts must be equal to the original whole.
+
+Lets begin by considering a control volume of fluid, V which exists in our usual spatial and time dimensions. This volume V has a surface S, whatever shape that may be, and this surface has a unit normal everywhere, vector n. The fluid has a density rho, kg per m3, so mass per volume. The total mass in our control volume is simply integral of rho through the entire volume V.
+
+We will make the assumption that mass is conserved, so dM-dt is d-dt integral of rho dV = 0.
+
+We apply leibniz’ theorem in 3D; this allows us to represent the time derivative of a volume integral of a function as the volume integral of the time derivative of that function, plus the surface integral of that function times the velocity normal of that surface.
+
+This second term is amenable to Gauss’ theorem; that the surface integral of the velocity normal is equal to the volume integral of the divergence of velocity.
+
+This turns both terms into volume integrals, and take the limit as volume goes to zero, which gives us,
+
+Drho-dt + u.gradRho + rho*grad.U = 0.
+
+Assume the fluid is incompressible, we lose the first two terms and get,
+
+Div u = 0.
+
+Which we can expand to be du-dx plus dv-dy plus dw-dz = 0
+
+This little nugget is worth its weight in gold and we will keep coming back to it throughout the course.
