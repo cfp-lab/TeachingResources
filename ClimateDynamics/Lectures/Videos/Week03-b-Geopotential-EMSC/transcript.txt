@@ -1,0 +1,19 @@
+Introduce geopotential
+
+So last time you heard that conserving momentum in a rotating frame of reference introduces two new forces, the centrifugal force and the coriolis force. Here we are going to have a look at the first one, the centrifugal force that arises from Earth’s rotation, the role that it plays in Earth’s climate, and introduce the concept of a geopotential.
+
+Any decent physics textbook will tell you that the centrifugal acceleration depends on the square of the rotation rate in radians per second and the distance from the axis rotation (giving us units of m per seconds squared), and for the centriofugal force we times this acceleration by the mass or density of the object. So on Earth, this acceleration is going to be largest at the equator, where the distance to the axis of rotation is largest, and about 6378km. Now we know the rotation rate of Earth is one revolution every 24 hours, which we can express in radians per second as 2pi/T where T is the rotation period; this is 7.3 x 10^-5 rad per sec.
+
+So the size of the centrifugal acceleration at its maximum point, the equator, is,
+
+6378000 * 7.3 x 10^-5 * 7.3 x 10^-5
+
+0.03 m/s2 times the mass to get it as a force. Compare this to the acceleration due to gravity, 9.81m/s2; acceleration due to gravity is way bigger than the acceleration associated with the centrifugal force.
+
+But this isn’t to say the centrifugal force has no influence on Earth. Remember that at the poles, the centrifugal force is zero, and Earth has been experiencing this differential centrifugal force for as long as it has been spinning; billions of years. And at the equator, the centrifugal force is straight up, directly opposing gravity, so when you add them together you in effect reduce the “vertical” force relative to what is at the poles, where there is no centrifugal force, or at mid latitudes where the centrifugal force doesn’t go in exactly the same direction as gravity but has some horizontal component to it.
+
+So over the billions of years of Earth’s evolution, Earth has formed itself in such a way that accommodates this latitudinal difference in the centrifugal force, and has become oblate; the radius at Earth’s equator is about 21km larger than the radius at Earth’s poles.
+
+In fact, the ratio of the difference between the radius at the equator and poles to radius at the equator, this is almost exactly the same as the ratio of the difference between the sum of gravity and centrifugal accelerations at the equator and poles.
+
+What this means is that the surface of Earth, specifically, the surface of the oceans and other fluids on Earth, follow what is called a surface of constant geopotential, which is the sum of gravity plus centrifugal forces. These geopotential surfaces can vary locally depending of the local gravity, and they can vary in time depending on how to local gravity is changing, but these changes in time tend to be on very very long timescales such as glaciers melt and the underlying crust rebounds, for instance. So for what we are interested in for this course, we’ll treat the geopotential as steady, and keep denoting it whenever it comes up simply as g.
