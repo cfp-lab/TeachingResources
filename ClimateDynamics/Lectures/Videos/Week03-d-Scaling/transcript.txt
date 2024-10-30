@@ -1,0 +1,55 @@
+Scaling for hydrostatic and geostrophic balance
+
+We have seen that when we consider flow on a rotating planet, the Navier-stokes momentum equations gains 2 additional force terms, the centripatel and corilis forces. Where the centripetal force is largest, at the equator, but here it ooperates in the same direction as gravity and is over a thousand times smaller, so while it has shaped Earth into a slightly oblate sphere over billions of years, doesn’t really do much in terms of the climate dynamics today. The coriolis acceleration, however, can be very influential, and we’ll have a closer look at it here now.
+
+Here we will take these noavier stokes momentum equations fot flow on a rotating planet and perform some scaling to find the leading order balances. We begin by assume the flow is inviscid, allowing us to drop these viscosity terms. 
+
+Well also divide through by density, which eliminates rho everywhere except with the pressure term.
+
+The coriolis terms are here, negative fv and fu, where f is two omega sin latitude.
+
+We will first consider the vertical momentum equation. We write it out in full giving the vertical acceleration and advection terms here, plus gravity and the vertical pressure gradient on the right hand side. Remember that we have already seen that the coriolis term for the vertical motions is negligible compared to gravity, so we only need to have coriolis in the horizontal momentum equations.
+
+We would like an idea of the magnitudes of these terms, and do so with the usual scaling procedures.
+
+For geophysical flows in oceans or atmospheres, the vertical scale H is much smaller than the horizontal scale, L. If we take a horizontal velocity scale U, the timescale T can be L on U, and from continuity we can get the vertical velocity scale W as UH on L.
+
+Substituting these scalings into the vertical momentum equation returns a quad of U squared H on L squared terms on the left, and a gravity and pressure term on the right.
+
+We can non-dimensionalise by dividing through by U squared on L, giving a group of H on L sized terms on the left hand side, and then non-dimensional gravity and pressure terms on the right.
+
+Let’s consider some typical Earth values for these terms- gravity is 10 meters per second squared, and ocean basins or atmospheric systems are somewhere between hundreds of kilometers right up to the circumference of Earth.
+
+For the ocean, the vertical scale is kilometers with typical velocities under a meter per second, while the atmosphere is tens of kilometers deep, with velocities potentially up to 10s of meters per second.
+
+We can plug these magnitudes in to find a fair separation of scales between the left and right hand sides- H/L we already know is less than 1, while gL on U squared is over tens of thousand or even millions.
+
+So, the leading order dynamical balance for the vertical momentum equation is between the gravity and pressure terms, meaning we can ignore the left hand side.
+
+This balance, of course, is something that you are already familiar with, the hydrostatic balance.
+
+Now let’s repeat this scaling exercise for the horizontal momentum equations; again, we’ll assume they are inviscid, so we can drop the viscosity terms.
+
+We want to get a scaling for these remaining terms. We have the standard geophysical scalings and relations for the lengthscales, velocity and timescales. And we also make the assumption that the horizontal pressure gradient scales as the hydrostatic differences arising from horizontal density differences, that is, delta P goes as rho prime g H.
+
+The biggest that f can be is 2 omega, so we’ll use that as the rotation scale. Considering the similar forms here with these two horizontal momentum equations, we really only need to do this exercise once. So we pick one of them and start making some subsitituoins.
+
+We get a group of U squared on L terms and the rotation scale times u on the left, and then the scaled pressure term on the right.
+
+We can non-dimensionalise this expression by dividing through by U squared on L, returning a bunch of order one terms, a factor that incorporates rotation times L on U, and this non-dimensionalised hydrostatic pressure term on the right.
+
+Lets look at this term here. Remember from our scaling that the inertial timescale of dynamics is L on U, and that is in here. The rotation timescale is given by 2 omega, which is here too. This term is actually a ration of the inertial to rotation timescales. This term is very important for rotating systems; when this term is small, the pressure gradients on the right will be balanced by the order 1 advection terms here. When this term is large, the pressure gradients will be balanced by this rotation term.
+
+This rotation term is actually the inverse of the Rossby number, Ro = U on 2 omega L.
+
+So, for small Rossby numbers, the rotation and pressure gradient terms dominate, and going back to the dimensional form gives the following equations:
+
+F v equals 1 on rho d P by dx 
+
+And negative f u equals 1 on rho d P by dy
+
+That is, the coriolis parameter times the north-south velocity balances the east-west pressure gradient.
+
+And the coriolis parameter times the east-west velocity balances the north-south pressure gradient.
+
+These relations are called the geostrophic balance. These are the order 1 balance of horizontal motions in the ocean and atmosphere, and together with the hydrostatic balance in the vertical, describe most of what goes on in Earth’s climate. These three relatively simple equations are an incredibly useful set of expressions to examining ocean and atmospheric flows, and they will be central to what we do throughout the next few weeks.
