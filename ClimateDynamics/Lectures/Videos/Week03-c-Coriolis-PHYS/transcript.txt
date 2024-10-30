@@ -1,0 +1,45 @@
+This unit examines the coriolis term that was introduced during our transform from inertial to rotating frame of reference. The coriolis term is named for Gaspard-Gustave de Coriolis, a 19th century French scientist who was interested in the transformation of energy between inertial and rotating systems.
+
+Following on from before, the rate of change of a velocity vector in an inertial frame of reference is equal to the rate of change of that velocity vector is a rotating frame of reference, plus the coriolis and centripetal terms.
+
+Substituting this into the navier-stokes momentum equation give us this familiar expression with these two additional terms. For geophysical applications, it is convenient to express the centripetal term as a potential in radial distance from the axis of rotation, allowing us to combine it with the gravitational potential to form the geopotential term.
+
+And incorporated into the navier-stokes equation. The coriolis term, 2 omega cross u, is the focus of our investigation here.
+
+To understand the Coriolis term, it is helpful to consider it with respect to the local rotating coordinate frame on Earths surface.
+
+Here is Earth as viewed from Himawari-8, a geostationary satellite looking at Australia.
+
+Earth is rotating about an axis of rotation, omega.
+
+The equatorial plane passes through the centre of Earth, splits it in two, separating the northern and southern hemispheres,
+
+and the latitude at a given point is represented by the angle theta from the equatorial plane through the Earth's centre.
+
+On Earth's surface, the local coordinate system has the x-direction running E-W, the y-direction running N-S, and the z-direction running locally vertical perpendicular to the surface.
+
+Consider the rotation vector omega at some latitude theta.
+
+In the local coordinates, components of the rotation vector omega are sine with latitude in the vertical,
+
+and cosine with latitude in the north-south direction,
+
+As the rotation vector is orthogonal to the east-west direction, there is no east-west component to omega.
+
+We want to cross the local rotation vector with the local fluid velocity (u,v,w), but lets first apply some quick scaling.
+
+The vertical velocity of geophysical flows are much smaller than the horizontal velocities, and can be ignored.
+
+Also, the magnitude of the cross term is at most omega times the local velocity; omega is 7.3 times 10 to the negative 5, and the local geophysical velocities might be around 1meter per second, which gives the vertical component of omega cross u as being negligible compared with gravity, and thus ignored.
+
+So with these scalings, 2 omega cross u, approximates to ( (NEGATIVE 2 omega v sin latitude in the X, 2 omega u sin latitude in the Y, and 0 in the Z)).
+
+Typically, this is written as ((-fv in the X, fu in the Y, 0)) where f = 2 omega sin latitude is referred to as the Coriolis parameter.
+
+What is interesting to note here is that the E-W component of the Coriolis term depends on the N-S velocity, likewise the N-S component depends on the E-W velocity.
+
+Also, the Coriolis term is a function of sin latitude, meaning it changes sign across the equator. 
+
+As we will soon see, this leads to atmospheric storms, ocean gyres, and many other flow features rotating in opposite directions for the north and south hemispheres.
+
+So, at this stage, we have transformed the navier-stokes momentum equation into a rotating frame of reference, introducing these coriolis and centripetal terms, and then rephrased this equation for geophysical applications, giving us the navier-stokes equation for flow on a rotating planet.
