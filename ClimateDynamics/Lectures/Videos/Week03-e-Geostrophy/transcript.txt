@@ -1,0 +1,33 @@
+Geostrophy
+
+We have just done a scaling analysis of the navier-stokes momentum equation for flow on a rotating planet. We have seen this reduces to the hydrostatic balance in the vertical direction, and that the horizontal velocities are balanced by the respective normal pressure gradients, which is known as the geostrophic balance.
+
+These equations are often written using f, the Coriolis parameter, two times Earth rotation omega times sin theta the local latitude.
+
+Note that f changes sign across the equator, meaning a pressure gradient in a given direction is going to be balanced by opposing flows whether you are in the northern or southern hemisphere, which is the reason why cyclones, hurricanes, ocean gyres flow in opposite directions in the northern and southern hemispheres.
+
+Now, these equations represent the governing dynamical balance of flow in the ocean and atmosphere; here we examine some consequences of this geostrophic balance.
+
+An obvious application of the geostrophic balance is in trying to understand and predict weather.
+
+Here is a map from the Bureau of Meteorology showing sea level pressure from a weather prediction model. The contours are isobars, which connect points of equal pressure. The pressure changes as you go across an isobar; so the pressure gradients are oriented normal to these isobars. Our geostrophic balance suggests that the pressure gradient in a given direction will be associated with a wind in the normal direction; that is, the winds will align with these isobars, normal to the pressure gradients.
+
+Taking a quick look at the surface winds shows that this is indeed the case.
+
+It also shows that the wind speeds (represented by the colours here) are largest where the pressure gradients are large; stronger winds are associated with stronger pressure gradients, as per the geostrophic balance.
+
+An interesting point to note here is that the direction of the winds are given by the direction of the pressure gradient; these high and low pressure regions have winds have circling winds in opposite directions. However, in both cases, the winds are oriented such that the pressure decreases to their right.
+
+Another application of the geostrophic balance can be found in the ocean.
+
+Consider an ocean in x-y-z coordinates with depth h_0 and surface pressure p_0. Lets say the rotation is anticlockwise, so we are in the northern hemisphere.
+
+Now imagine that h, the ocean depth, is a function of y, so the free surface here slopes down to the right. From the hydrostatic balance, the pressure anywhere in the domain is a function of the water depth h and the atmospheric pressure, p_0, which we can assume is constant throughout our region of interest.
+
+We can differentiate the hydrostatic pressure equation in y to get an expression for the change in pressure in the y-direction. On the right hand side, the only term that has a y dependence is h, giving dp/dy equals rho g dh/dy.
+
+This horizontal pressure gradient term is the same as the one in the geostrophic balance, and so we make the substitution for it, cancelling the density, and rearranging for u.
+
+giving us u, the velocity in the x-direction, as a function of the free surface slope in the y-direction.
+
+It turns out that this is a very useful relationship to know- free surface slopes are something that we can readily measure (particularly with satellite observations), and through this geostrophic balance, we get some meaningful information about the velocity field from a measurable quantity.
