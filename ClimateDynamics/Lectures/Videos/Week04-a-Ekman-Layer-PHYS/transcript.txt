@@ -1,0 +1,73 @@
+Ekman Layer derivation
+
+Over the past couple of weeks we have been building our understanding of rotating and stratified flows, and seeing how they relate to Earth's climate. We have tended to focus on the governing dynamical balances, the geostrophic balance and the hydrostatic balance. Here we are going to take a look at what happens when you start to break these balances.
+
+We are investigating the effects of viscosity on a rotating fluid, specifically, the consequences of viscosity breaking the leading dynamical balance, geostrophy.
+This typically occurs at the top and bottom boundaries of a fluid, and it is the primary mechanism for getting momentum into a rotating fluid.
+
+We will start by picturing a uniform geostrophic flow of velocity  U_0 in the x-direction. It is in geostrophic balance, so the Coriolis acceleration arising from its flow, 2 omega U_0, is balanced by the pressure gradient in y direction, perpendicular to the flow.
+
+The geostrophic equations that describe the force balances are 2 omega  U_0 equals - 1 on rho d p by dy. And, given that the flow in the y direction is zero, geostrophy requires that the pressure gradient in the x direction is zero.
+
+Near to a horizontal boundary, viscous stresses penetrate some vertical distance delta into the fluid,
+
+reducing the velocity in this viscous boundary layer and thus reducing the Coriolis acceleration here, rendering this reduced acceleration unable to balance the across-flow pressure gradient, initiating a flow in the y-direction.
+
+That is, near to the boundary, the flow rotates with height.
+
+We are now going to go through the derivation of equations to describe the flow within this viscous boundary layer. Begin with the steady, rotating momentum equations, but hang onto the viscous terms:
+
+these are the geostrophic equations in x and y with viscosity, and the hydrostatic equation in the vertical.
+
+We want to solve these equations given the boundary conditions of u equals v equals 0 at z = 0 at the boundary, and that as z gets large, u goes to U_0 and v goes to zero.
+
+Now, the hydrostatic equation (number 5), implies that the interior pressure gradient also applies in the boundary layer,
+
+allowing us to relate the interior geostrophic balance equations to the boundary layer equations. This removes the pressure gradient in the x-direction, giving 2 omega v as equal to the x-viscosity term. It also allows us to substitute 2 omega U_0 for the pressure gradient in the y-direction, giving 2 omega times the difference between the velocity in the interior and the boundary layer as equal to the y viscosity term.
+
+These two equations are 2nd order, and as they stand, we don't have enough boundary conditions to solve for u or v.
+
+We can progress however this by introducing the complex variable i.
+
+Note that this is just a mathematical tool, and that the flow associated with the complex variable is not actually imaginary.
+That is, if the flow is indeed able to be modelled by these equations, we should be able to perform whatever mathematical tricks we like to examine the flow in different ways.
+
+So, we multiply the second equation by i and combine.
+
+This reduces to give 2 i omega outside of u plus iv minus  U_0, minus the viscosity times the second vertical gradient of u plus iv equals zero.
+
+Next, we define big Z as equals to u plus iv on U_0, and substitute this big Z back into the combined equation, giving us viscosity times the second vertical gradient of big Z minus 2 i omega outside of  Z minus 1 equals zero.
+
+This is a second order equation in  Z. We want to solve for  Z with the boundary conditions of u and v at little z equals zero and little z goes to infinity. The solution is
+
+Z = 1 minus the exponential of the square root of 2 i omega on viscosity time little z.
+
+This solution has real and imaginary parts which can be separated and rearranged for u and v, where we have made the substitution for delta as the square root of viscosity on omega.
+
+These equations describe the flow within the Ekman boundary layer, which has thickness scale delta.
+
+The flow described by these equations is referred to as the Ekman spiral, the result of viscousity in a geostrophic flow.
+
+This viscous boundary layer is known as the Ekman layer, named for Vagn Walfrid Ekman, a swedish oceanographer who, as an undergraduate student, proposed this theory to explain the observed drifts of icebergs in the Arctic Ocean.
+
+We can plot these solutions and get an idea of the shape of the flow. Velocity in the along flow goes from zero up to U_0.
+
+Velocity in the across-flow direction goes from zero to some maximum at an intermediate depth just under 1 delta before dropping back to zero.
+
+Plotting these two together gives a distinctive spiral, known as the Ekman spiral as you traverse from the boundary vertically through the Ekman layer.
+
+Note that immediately adjacent to the boundary the flow is at 45 degrees to the interior flow, and that integrating the velocities through the layer will give a transport that is normal to the free-stream direction.
+
+We can see this effect with a lab demonstration. Here, the tank is at solid body rotation with ducks, and particles on the surface as passive tracers, and purple dye being emitted from crystals on the bottom within the Ekman layer. Speeding up the rotation of the tank, results in an outward transport in the Ekman layer oriented at 45 degrees to the radius outwards; decreasing the tank rotation (spinning down the water) directs the transport in the Ekman layer inwards at 45 degrees to the radius.
+
+
+
+
+
+
+
+
+
+
+
+
