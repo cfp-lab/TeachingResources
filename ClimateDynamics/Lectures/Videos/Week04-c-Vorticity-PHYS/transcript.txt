@@ -1,0 +1,29 @@
+Vorticity equation
+
+In this video we are going to examine the concept of vorticity, a property of fluids, closely related to the fluids spin, that provides a convenient means of predicting the time evolution of flows.
+
+We start with the geostrophic equations, developed from the rotating momentum equations with the assumptions that the flow is steady, wide and thin, rapidly rotating and inviscid.
+
+In the horizontal directions there is a balance between the coriolis forces and the horizontal pressure gradients, and the in the vertical the fluid is hydrostatic.
+
+These equations describe a balanced state that is time-independent. These are not able to describe the time evolving flow. Which is an important pursuit for forecasting significant weather events, like cyclone winston.
+
+To achieve this, we need a new set of equations.
+
+We can begin with the geostrophic equations in x and y,
+
+and substitute these from the total time derivatives of flow in the x and y directions.
+
+We can expand these out to get equations with the complete set of advection terms.
+
+The first terms we can get rid of are these two- vertical velocity times the vertical shear (the vertical gradient of horizontal velocity). We can do this because we are assuming the vertical velocities are small, or the Taylor-Proudman Theorem is in effect, in which case both the vertical velocity and vertical shear are zero. Either way, we are only interested in the horizontal velocities within this thin, wide flow.
+
+We cross-differentiate the two equations, that is, differentiate equation 1 in y and equation 2 in x. This returns a common pressure gradient term, that is, the second derivative of pressure in x and y.
+
+We can then combine these two equations using this common term.
+
+The product rule is used to expand this expression, which is then rearranged and reduced to give an equation with the total time derivative of the coriolis parameter plus the x-derivative of the v velocity minus the y-derivative of the u velocity, plus the HORIZONTAL DIVERGENCE times the same group of terms as with the total time derivative.
+
+At this point we define ZETA = dv/dx - du/dy, and make the substitution for zeta back into the previous equation, returning,
+
+total time derivative of f plus zeta plus the horizontal divergence times f plus zeta equals zero. This is called the vorticity equation.
