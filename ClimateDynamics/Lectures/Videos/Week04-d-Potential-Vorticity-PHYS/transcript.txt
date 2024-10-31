@@ -1,0 +1,110 @@
+Here we continue our efforts to describe the time evolving fluid flows on a rotating planet by way of the vorticity equation, which we have just derived by introducing the total time derivatives of horizontal flows into the geostrophic equations, cross-differentiating and combining.
+
+This vorticity equation written as the total time derivative of f plus zeta, plus the horizontal divergence times f plus zero equals zero.
+
+where the term ZETA, represents dv dx - du dy . We will begin by giving some context to ZETA which is referred to as the relative vorticity.
+
+and can be expressed as the curl of the horizontal velocities.
+
+Now, picture a column of fluid, here we are looking at it from above.
+
+Imagine it is in a region of horizontal shear, so that there is a y-direction gradient to the u velocity, and some x-direction gradient to the v-velocity,
+
+The relative vorticity is the combination of these two shears,
+
+so that a parcel of water in a sheared flow has the relative vorticity ZETA, a function of this shear. This can also be thought of as the SPIN of the water column. 
+
+Now with this in mind we return to the vorticity equation. This can be dissected to reveal some interesting features.
+
+f, is a familiar term that we have been calling the coriolis parameter, in this context it is also referred to as the planetary vorticity. It is defined exactly how it is under the name Coriolis parameter, simply a function of latitude and Earth’s rotation rate.
+
+ZETA, we have just seen, is the relative vorticity, which physically reflects the spin of the water column.
+
+The sum of these two gives the absolute vorticity. 
+
+now a change in absolute vorticity is only permissible if there is a finite horizontal divergence, which, when considering the flow as a set of infinitely narrow spinning columns, relates to the vertical stretching and squashing of spinning fluid parcels.
+
+This concept of requiring a horizontal divergence to permit a change in absolute vorticity is interesting, and one we should take a step further.
+
+Given that we are considering the fluid as vertical spinning columns, the continuity equation of each column can be written as per usual,
+
+and we can integrate it over the depth of the fluid h to return the total time derivative of the column depth h plus the horizontal divegence times depth h equals zero.
+
+This is saying that in order to change h, the depth of the column, you need a finite horizontal divergence, which is fairly intuitive to understand.
+
+Now, this equation has the same form as the vorticity equation.
+
+So we can use the common term, the horizontal divergence, to combine these two equations to get this expression; the total time derivative of f plus zeta on h is zero.
+
+This term, f plus zeta on h is defined as q, and is called the potential vorticity.
+
+The potential vorticity in a property of the flow that is conserved along stream paths. For the fluid to change f (its latitude) zeta (its spin), or h (its height), there must be a compensating change in one or both of the other terms.
+
+This principle provides a convenient means for predicting the time evolution of the flow.
+
+Finish off with a question: what will happen to a parcel of water as it flows northward to larger f in a basin of uniform depth h?
+
+
+
+
+
+The term ZETA needs some introduction. It is referred to as the relative vorticity, and can be expressed as the curl of the horizontal velocities.
+
+Picture a column of fluid, here we are looking at it from above.
+
+Imagine it is in a region of horizontal shear, so that there is a y-direction gradient to the u velocity
+
+here the negative of this gradient is oriented in the positive y direction,
+
+and that there is also shear in the v velocity, so that there is an x-direction gradient to the v-velocity,
+
+which is pointing in the negative x direction.
+
+The relative vorticity is the combination of these two shears,
+
+so that a parcel of water in a sheared flow has the relative vorticity ZETA, a function of this shear. This can also be thought of as the SPIN of the water column. 
+
+
+
+
+Now we return to the vorticity equation. This can be dissected to reveal some interesting features.
+
+f, which we have been calling the coriolis parameter, is also referred to as the planetary vorticity. It is exactly how it is under the name Coriolis parameter, simply a function of latitude and Earth’s rotation rate.
+
+ZETA, we have just seen, is the relative vorticity, which physically reflects the spin of the water column.
+
+The sum of these two gives the absolute vorticity. 
+
+now a change in absolute vorticity is only permissible if there is a finite horizontal divergence, which, when considering the flow as a set of infinitely narrow spinning columns, relates to the vertical stretching and squashing of spinning fluid parcels.
+
+
+
+
+We can take this concept one step further.
+
+Given that we are considering the fluid as vertical spinning columns, the continuity equation of each column can be written as per usual,
+
+and we can integrate it over the depth of the fluid h to return the total time derivative of the column depth h plus the horizontal divegence times depth h equals zero.
+
+This is saying that to change h the depth of the column, you need a finite horizontal divergence, which is fairly intuitive to understand.
+
+Now, this equation has the same form as the vorticity equation.
+
+We can use the horizontal divergence term to combine the two equations and get this expression; the total time derivative of f plus zeta on h is zero.
+
+This term, f plus zeta on h is defined as q, and is called the potential vorticity.
+
+
+
+The potential vorticity in a property of the flow that is conserved along stream paths. For the fluid to change f (its latitude) zeta (its spin), or h (its height), there must be a compensating change in one or both of the other terms.
+
+This principle provides a convenient means for predicting the time evolution of the flow.
+
+
+Finish off with a question: what will happen to a parcel of water as it flows northward to larger f in a basin of uniform depth h?
+
+
+
+
+
+
