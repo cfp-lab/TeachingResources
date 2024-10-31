@@ -1,0 +1,23 @@
+Vorticity and time-dependent dynamics
+
+So we are at the stage in our exploration of climate as a rotating fluid where we have found the leading order balances in the system, the geostrophic balance and the hydrostatic balance, and have begun to examine what happens when these balances are broken, like in the case when boundary friction breaks the geostrophic balance, and the resulting Ekman processes excite a differential flow in the viscous boundary layer and ultimately lead to vertical flows to or from the boundary, which proves to be a very effective means of communicating energy and momentum to and from boundaries.
+
+One of the assumptions that we have made to get to this point is that the flows are steady; time doesn’t appear in their equations, so all of our balances are time-independent, and while they describe the state of the system right now, they aren’t able to offer any information as to how the system might evolve into the future. This time evolution is of course important to know, particularly for making predictions about the weather or future states.
+
+So here we are going to make a modification to the geostrophic balance equation that permits a time dependence, and see where this approach takes us.
+
+We start out by subtracting the geostrophic equations from the total time derivatives, cross-differentiate, assume the vertical velocities are negligible compared to the horizontal velocities, and do some equation rearranging that I won’t dwell on, and we end up with this expression;
+
+Vorticity equation with expanded zeta.
+
+Now at this point we can introduce a term zeta = dv by dx minus du by dy, which we call the relative vorticity. This term is closely related to the fluids spin. Specifically, it describes the combination of the cross-shear flow of v in x and of u in y, which is the spin of the fluid about the local vertical axis in the horizontal plane.
+
+Substituting zeta back in gives us this expression, which is called the vorticity equation. F is the coriolis parameter, or in this case we call it the planetary vorticity, still defined as f = 2 omega sin theta.
+
+The sum of the planetary and relative vorticities is called the absolute vorticity.
+
+Our vorticity equation tells us something interesting about the absolute vorticity. Because it sums to zero, if there is to be a change in the absolute vorticity, there needs to be a compensating change in this term  du by dx plus dv by dy. 
+
+If you think that this terms looks familiar, you are right, this is the horizontal component of the continuity equation; when combined with the vertical component these must sum to zero. The implication of this is that for you to be able to change the absolute vorticity, you need a non-zero horizontal divergence, which, according to the continuity equation, means you need a non-zero change in vertical velocity with depth. What that physically looks like is a stretching or a squashing of the fluid column.
+
+As always, there is a neat mechanical analogy to this concept. Let’s imagine your planetary vorticity f is constant, and you want to change your relative vorticity zeta. In order to do so you need to undergo a horizontal divergence or convergence, and in doing so, stretch or squash yourself in the vertical. It is only they that you can change your spin, your relative vorticity zeta. This is the fluids analogy to the conservation of angular momentum.
