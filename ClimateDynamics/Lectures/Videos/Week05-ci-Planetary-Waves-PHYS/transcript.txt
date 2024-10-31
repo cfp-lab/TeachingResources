@@ -1,0 +1,88 @@
+Here we will examine Rossby waves, a consequence of the conservation of potential vorticity.
+Our investigations will involve a bit of detailed equation manipulation, and this theoretical approach is perhaps best served with some physical motivations to provide context.
+
+This is the 102 day drift path of a balloon released from NZ. Might be difficult to make out with the path overlaid on itself, but superimposed on the eastward drift path is a mode 3-4 wave of meridional oscillation, spanning 10 or so degrees of latitude.
+
+One can imagine that the balloon is a passive tracer, following air masses that are also experiencing this N-S oscillation as they propagate eastward. The northern extents of some of these waves pass over southern Australia, and it probably doesn’t take too much for you to imagine the cold, dry Antarctic blast that these air masses bring.
+
+These waves are Rossby waves. They are responsible for the majority of weather experienced by the more populated regions of Australia. And in this video we are going to examine their dynamics.
+
+This is the drift path of a balloon released from NZ. Superimposed on the prevailing eastward flow is a mode 3 or 4 meridional oscillation spanning about 10 degrees of latitude.
+
+If you consider the balloon to be a passive tracer advected by the movement of air masses, this meridional oscillation represents the regular northward excursion of cold, dry Antarctic air masses over the southern regions of Australia
+
+These are Rossby waves, and they are responsible for the majority of weather experienced by the more populated regions of Australia. In this video we examine their dynamics.
+
+Begin with the potential vorticity equation. We know that this quantity, potential vorticity, is comprised of f, the planetary vorticity which is simply a function of latitude, zeta, the relative vorticity which is related to the curl of the horizontal velocity field, and h, the fluid depth. The potential vorticity is conserved along stream paths, so that a change in any of these three terms requires a change of one or both of the other terms.
+
+Here we will derive what happens if f or h change.
+
+First we need to describe how f can change. We know it is a function of latitude, so it is not globally uniform.
+
+This needs to be accounted for in flows with large latitudinal extent.
+
+A useful approximation to take is to linearise the change by taking theta as being equal to some reference theta 0 plus a small term y on RE (from trigonometric relation of small angles), (draw the circle with trigonometric relation), allowing us to Taylor expand f as,
+
+f = 2 omega outside sin theta 0 plus y on Re cos theta 0 plus y on Re squared sin squared theta 0 plus higher order terms.
+
+We can do away with these higher order terms and retain f = f0 + beta y, where f0 is the Coriolis parameter at the reference latitude, and beta is latitudinal gradient of f.
+
+This procedure, approximating the change of Coriolis parameter in this way, is called the beta-plane approximation.
+
+So, coming back to the potential vorticity expression, and the assumptions needed to develop this, that is, inviscid, thin, rapid rotation.
+
+The equations describing the horizontal motions used to develop the PV expression are the expanded, time-dependent rotating momentum and continuity equations.
+
+These describe the flow, and also perturbations carried by the flow.
+
+We can think of the flow as containing lots of small fluctuations that have a zero mean contribution to the flow. These fluctuations can be thought of as waves (for their zero mean component) and having small velocities, so that we can neglect the nonlinear advection terms (here shown in red).
+
+Rewrite the top two equations without the advection terms,
+
+make the substitution for f as the beta-plane approximation,
+
+and use the hydrostatic approximation to rewrite the pressure gradients in terms of surface height anomalies, eta, 
+
+which for the x direction is
+
+acceleration in x minus the beta-approximation times v equals gravity times the surface height gradient in x
+
+and an equivalent equation in the y direction.
+
+Remember that the flow is to first order geostrophic, which is described by the coriolis and pressure gradient forces shown here in black, and that the time-dependent and beta terms are small compared to these. Here these small terms are colored in blue.
+
+We can use the geostrophic balance to approximate the horizontal velocities,
+
+and substitute these back into equations 1 and 2 for the small terms,
+
+(circle these equations)
+
+We want to rearrange these new equations for u and v,
+
+finding that v is equal to gravity on the reference coriolis parameter times the x gradient of surface height, minus gravity on the reference coriolis parameter squared times the y and time derivative of the surface height minus beta y times  gravity on the reference coriolis parameter squared times the x derivative of the surface height.
+
+There is an equivalent equation for the u velocity
+
+Again, the blue terms are small, and these now describe the ageostrophic velocities, these describe the behaviour of the small amplitude wave perturbations superimposed on top of the geostrophic balanced flow. You should recognise the black terms as geostrophic, so together these describe the geostrophic plus ageostrophic velocities.
+
+Remember that we started with three equations, and the third, continuity equation, we have neglected up until now.
+
+We want to integrate this over the depth of the fluid H, giving this depth H times the horizontal divergence plus w at H minus w at 0.
+
+w at 0 is 0 (no flow through the bottom boundary, and w at H is simply d_eta by dt.
+
+So we have the rate of change of the free surface plus H times the horizontal divergence is equal to zero.
+
+Now we substitute the geostrophic plus ageostrophic velocity terms for u and v into the horizontal divergence part, that is,
+
+equation 6 and 7 go into equation 8,
+
+already we can see that gravity on f squared is a common term that we can pull out leaving this expression for the depth-integrated continuity of geostrophic plus ageostrophic velocities.
+
+We can expand this out, and we can already see that there will be common terms that cancel (circle these), and we are left with three terms, the third derivative of eta by dx squared dt, the third derivative of eta by dy squared dt, and a term with beta times the x gradient of eta- which survives by the product rule.
+
+We can pull out the time derivative from these first two terms, and substitute the laplacian operator for the second spatial derivatives of eta. We also define R, the Rossby radius, as square root of g H on f, and substitute this in giving,
+
+the time derivative of eta minus the Rossby radius squared times the time derivative of the laplacian of eta minus the Rossby radius squared times beta times the x derivative of eta equals zero.
+
+This is the planetary Rossby wave equation, describing the motion of small perturbations on top of geostrophic flow.
