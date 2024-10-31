@@ -1,0 +1,37 @@
+Planetary Waves - EMSC
+
+We have just seen the structure of the general circulation of the atmosphere, and how each hemisphere is divided up into 3 atmospheric cells that have eastward flowing jets between them. Here we are going to see what happens when there is variability in the system, and how this can manifest itself as regular planetary-scale features known as Rossby Waves.
+
+Perhaps the most well known example of Rossby waves is in the northern hemisphere, in the large, regular, latitudinal fluctuations of the polar jet stream, evident here in an animation of upper atmosphere wind speeds. These fluctuations bring blasts of icy arctic air masses southward over north america and much of europe, and hence are of particular interest to their weather prediction services. Given this, it is no surprise that Rossby waves are responsible for much of the weather that is experienced at mid-latitudes.
+
+A similar dynamic exists in the southern hemisphere, apparent here in the regular wavelength of variability in the roaring fourtires, the strong eastward winds over the southern ocean. Again, this variability bring substantial weather to australia and new zealand, southern africa and south america.
+
+Consider a particle following the flow here, such as a balloon released from new zealand. That is exactly what is shown here- the 102 day drift path of such a balloon. Might be difficult to make out with the path overlaid on itself, but superimposed on the eastward drift of the balloon a mode 3 to 4 wave of latitudinal variability, spanning 10 or so degrees of latitude.
+
+One can imagine that the balloon is a passive tracer, following air masses that are also experiencing this N-S oscillation as they propagate eastward. The northern extents of some of these waves pass over southern Australia, and it probably doesn’t take too much for you to imagine the cold, dry Antarctic blast that these air masses bring.
+
+These waves are Rossby waves. They are responsible for the majority of weather experienced by the more populated regions of Australia. And in this video we are going to examine their dynamics. To do this we want to step back to last week where we finished up with the conservation of potential vorticity.
+
+We know that this quantity, potential vorticity, is comprised of f, the planetary vorticity which is simply a function of latitude, zeta, the relative vorticity which is related to the curl of the horizontal velocity field, and h, the fluid depth. The potential vorticity is conserved along stream paths, so that a change in any of these three terms requires a change of one or both of the other terms.
+
+Here we will investigate what happens if f changes, what happens when fluid is perturbed north-or-south off its contour of constant planetary vorticity;
+
+rather than dive into the equations of motions, we’ll opt for a more intuitive approach.
+
+Let’s imagine you have some fluid that is balanced in a domain of uniform h that spans a range of planetary vorticities, f. In the north you have high f, and in the south, low f, and contours of f that run east-west.
+
+Now we’ll pick part of this domain and impose a ripple on it, so that some fluid moves north and some fluid moves south.
+
+Conserving potential vorticity means that the fluid that moves north to higher f needs to reduce its relative vorticity, so it rotates clockwise relative to its new surrounds.
+
+Conversely, the fluid that moves south to lower f needs to increase its relative vorticity, and rotates anticlockwise relative to its new surrounds.
+
+When you compare these two perturbations, specifically the effect that they have on fluid from the line of origin, the northward displaced fluid is driving flow on the origin to the left or west, and the southward displaced fluid is driving flow on the origin also to the left or west. That is, both northward and southward displaced fluids tend to drive westward flow. So the rectified effect of any perturbation, even a nice neat evenly matched positive and negative pair of perturbations, is a westward flow.
+
+The speed of this westward flow depends on a few factors, including the gradient of the f, the depth of the fluid, and the time and space geometry of the perturbation, which affects the size of its relative vorticity anomaly
+
+ Now, because the climate is inherently a chaotic turbulent system, the perturbations that excite these westward flows span all possible time and space geometries, which means that there is a plethora of these Rossby wave dynamics taking place all the time.
+
+So, what makes them coherent, and why don’t they just add to and disappear into the background turbulence? Well, the ones that we see like in the examples previously, are actually riding on the background prevailing eastward flow. These are westward propagating waves, being excited with a range of different westward speeds and waves structures, but the ones that we see are those that most closely match the background prevailing eastward flow, so as to become almost stationary relative to our observing frame, which is that of Earth’s surface.
+
+Waves of all scales and speeds are excited, but the only ones that we see coherently are those that most closely match the background prevailing eastward flows. And the strongest eastward flows in the atmosphere are the jet streams, which means that they are able to coherently support the strongest and most dynamic Rossby waves; these features are moving with speeds that match the eastward flows (hundreds of kilometers per hour) and amplitudes approaching 10-15 degrees of latitude. These are the biggest waves on the planet, and they are responsible for the majority of Earth’s weather.
