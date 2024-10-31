@@ -1,0 +1,19 @@
+Potential vorticity
+
+You have just seen what happens when we include a time-dependence to the geostrophic balance, and discovered the concept of relative vorticity, how it combines with the planetary vorticity to become the absolute virtuosity, and seen how it is analogous to the conservation of angular momentum. Here we want to take this line of thinking one step further and introduce another type of vorticity, potential vorticity, which is perhaps the most important dynamical property of rotating fluids, and the quantity that allows us to actually predict how fluid systems will evolve into the future, which is absolutely essential for weather forecasts and climate prediction models.
+
+So we take our vorticity equation again where f is the planetary vorticity, which is still just our coriolis parameter 2 omega sin latitude, and zeta is the relative vorticity or vertical spin of the fluid column, and this bracketed term is the horizontal component of the continuity equation.
+
+We are going to step back to the original full continuity equation for a minute. If we take this equation and integrate it in depth from 0 to some depth h, so as to get the vertical sum of continuity throughout the water column, our integral expression happens to have this familiar form, 
+
+The total-time derivative of h plus the horizontal component of the continuity equation times h is equal to zero.
+
+Which is the same form as the vorticity equation except we replace h with the absolute vorticity.
+
+The common term here, the horizontal component of the continuity equation, allows us to combine these two expressions, and return an expression showing that the
+
+Total time derivative of f plus zeta on h is zero.
+
+This term, f plus zeta on h, is often given as q, and is referred to as the potential vorticity.
+
+This is a materially conserved property of all fluid parcels as they flow. So for a fluid parcel to be able to change its planetary vorticity f, its latitude, or its relative vorticity zeta, its spin, or its height h, it requires a compensating change in one or both of the other terms. This conservation of potential vorticity is a powerful means for predicting the time evolution of the flow, and we’ll explore it further in the next couple of weeks.
