@@ -1,0 +1,29 @@
+Western Boundary Currents
+
+We have just seen that the wind-driven gyres arise from the ekman transports associated with the prevailing winds of the general circulation of the atmosphere. The fact that these westward trade winds and eastward roaring forties change directions with latitude leads to regions of ocean surface convergence and divergence at different latitudes. There is subsequently a hydrostatic pressure gradient, which drives a flow that is affected by coriolis, and eventually the system reaches a balance between the coriolis acceleration and hydrostatic pressure gradient, and becomes a stable gyre. However, these gyres have a vertical flow; the larger sub-tropical gyres tend to be downwelling as the surface converges, and the sub-polar gyres are upwelling as their surfaces diverge. Here we ask about the physical implications of these vertical motions within the gyres, and what effects that might have on their structures.
+
+Let’s start with the conservation of potential vorticity in a gyre. We know that f plus zeta on H must be conserved. And when there is downwelling, like that in a sub-tropical gyre experiencing ekman convergence, there is a decrease of H. At these large basin scales, we know that the planetary vorticity is much larger than the relative vorticity, so that a decrease in H requires a decrease in f; for potential vorticity to be conserved in a basin-scale sub-tropical gyre, the flow needs to decrease its planetary vorticity, and tend to flow equatorward.
+
+Another way to see this is to begin with the geostrophic equations and cross-differentiate them to remove the pressure term but acknowledge that the coriolis parameter can change in latitude, giving the 
+
+f ( du/dx + dv/dy) + df/dy v = 0,
+
+From continuity we know that du/dx + dv/dy = - dw/dz, and we can integrate this vertically to get an expression relating the north-south transport to the vertical velocity at the bottom of the ekman layer,
+
+Beta V = f wek
+
+Where beta is the meridional gradient of f.
+
+So a downward flow requires an equatorward transport, and vice versa. This is called the Sverdrup Balance, and it really is a useful tool - it relates the meridional transport to the vertical ekman velocity at the base of the ekman layer, which we can in turn relate to the structure of the wind field (curl) but I won’t dwell on that point here. In terms of the potential vorticity, the Sverdrup balance is between the coriolis, specifically the change in coriolis with latitude, and the stretching/squashing of the water column.
+
+But how does this work? The gyre occupies the whole basin, and the whole thing is downwelling, so the whole basin is tending equatorward, but that can’t be the case because we know the gyre is stable and not moving equatorward and its not moving down. What is the restoring process that keeps the gyres where they are?
+
+Well, we can think about this in another way. The oceans and these gyres have been given momentum from the atmosphere for hundreds of thousands of years. So why haven’t the oceans reached the speed of the atmosphere yet? Sure it might take a while to spin up the ocean to a wind blowing over it, but it has had a lot of time. What process is slowing down the oceans and preventing them from reaching atmospheric speeds? When we look at our momentum equations it seems pretty obvious; the only thing it can be is friction.
+
+So now we are looking at where friction can come into it and play a meaningful role. We know the gyres can be deep, but not quite full depth, so it isn’t bottom friction. The northern and southern edges are open water and tend to be flowing with the gyre anyway; so only other places that can impart friction are the eastern and western edges of the gyre.
+
+This lateral friction at the eastern and western edges is going to be associated with a substantial change in relative vorticity, which is going to need accommodating in order to conserve potential vorticity.
+
+Each sub-tropical gyre itself has relative vorticity continuously being supplied to it by the winds; it is negative in the northern hemisphere and positive in the southern hemisphere. This input of relative vorticity needs to be accommodated. Now on the eastern edge of the gyre, as the gyre flows equatorward, the change in latitude and friction with the boundary both lead to an accommodating supply of relative vorticity, and the gyre can achieve a local vorticity balance without requiring substantial modification of the system or flow structure.
+
+On the western edge of the gyre, however, the change in latitude associated with the poleward flow supplies relative vorticity to the gyre that is in the same sense as the winds, and therefore acting to further spin up and energise the gyre. The only way that this relative vorticity injection can be balanced is if the relative vorticity supplied by the lateral friction is large, which means the flow at the western boundary needs to be fast and narrow, with huge amounts of horizontal shear. This western intensification of the gyres, which is yet another consequence of the conservation of potential vorticity, is what gives us the western boundary currents of the major ocean basins; the Gulf Stream in the North Atlantic, the Kuroshio in the North Pacific, the East Australian Current in the South Pacific, the Brazil current in the south atlantic, and the agulhas current in the indian ocean. This western intensification of the gyres isn’t just restricted to the boundary currents; the entire gyre system responds to locate itself and its centre of circulation sufficiently close to the western edge so as to be in a vorticity balance that accommodates the relative vorticity supplied by the winds with that removed by lateral friction in the western boundary current. The asymmetric structure of the gyres is a direct result of this dynamical balance and the system responding to maximise its efficiency.
