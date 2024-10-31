@@ -1,0 +1,62 @@
+Ekman Pumping
+
+We have seen the geostrophic balance and the consequences of viscosity in a rotating fluid- that is, the establishment of the viscous ekman layer, which transports fluid in a different direction to that of the geostrophic balance.
+
+What we now want to know now is exactly how this viscous process can effect the larger scales of motion in a rotating fluid. 
+
+Recall the Ekman layer thickness, delta, is given as the square root viscosity on the rotation rate.
+
+And the horizontal velocities are a function of depth from the boundary, spirialling from 0 up to the geostrophic velocity, U_0.
+
+For the lab scales, viscosity is 10 to the minus 6 m squared per second, and omega is order 1 radian per second, so the ekman layer is about a millimeter, which we see with the dye here.
+
+For atmospheric flows, however, the viscosity that is important is a bulk eddy viscosity that characterises the turbulence in the boundary layer; this eddy viscosity is more like 1 m squared per second, and Earth's rotation is about 10 to the minus 4 radians per second, giving an ekman layer that is on the order of a hundred meters.
+
+So immediately, we can see that this viscous process is something to take note of.
+
+The transport per unit width in the Ekman layer, V_ek,  is going to be the ekman velocity times u_ek times the ekman layer thickness delta.
+
+We can use the u and v velocity profiles that we have already calculated to get an estimate of the total velocity in the ekman layer- and we see that the transition of the ekman velocity from zero to the geostrophic velocity is fairly linearly, meaning we can approximate the ekman velocity as about half the geostrophic velocity. Importantly, these velocities are of similar order and scale together.
+
+This gives us an ekman transport that is half the geostrophic velocity times the ekman layer thickness delta.
+
+As we saw last time, exactly where this ekman flow is going is with a component that is normal to the free-stream flow, in the direction given by the overlying pressure gradient.
+
+Now, under ideal circumstances of steady, uniform surface conditions and an unbounded domain, the transport in the ekman layer is also steady and uniform, and non-divergent.
+
+However, in reality, this is rarely the case; surface stresses and pressure gradients often change, the coriolis parameter, so omega, depends on latitude and goes through zero at the equator, and coastlines or other features give rise to discontinuities in surface boundary conditions, all leading to horizontal divergence in the ekman transport.
+
+By continuity, this horizontal divergence must be accommodated by a vertical flow, w, into or out of the ekman layer.
+
+It is not hard to see that this w is going to be related to the thickness of the ekman layer, delta, and the structure of the geostrophic flow, specifically, its curl, as w approximates to delta times the curl of geostrophic flow.
+
+So consider a low pressure system over Australia, like tropical cyclone Yasi here.
+
+The geostrophic flow is cyclonic about the system.
+
+The ekman flow near the ground is oriented inwards as per the pressure gradient.
+
+This flow needs to go somewhere, and the only place it can go is up.
+
+So, by way of viscous ekman processes, the flow near the ground in a low pressure system is oriented inwards, and upwards.
+
+For high pressure systems, the opposite is true- the flow near the ground in the ekman layer is oriented outwards, requiring a downwelling in the centre for continuity.
+
+Now, upward motions in the atmosphere leads to the condenstation of moisture in vapor, in the form of clouds, which can turn to rain. Downward motions lead to a vaporisation of moisture, or the absence of clouds.
+
+These effects are the reason why low pressure systems tend to be associated with unstable, cloudy, rainy weather conditions, while high pressure systems are clear and stable and persist for much longer.
+
+That is, ekman transports play a leading role in the cloudiness of a given day.
+
+These ekman processes are also important for the oceans.
+
+Rather than having a solid boundary condition, the stress at the surface of the ocean is provided by the winds.
+
+So where there is divergence in the wind field, there is divergence in the oceanic ekman transports.
+
+One obvious place where the winds diverge is at the coasts; the ocean sees the lateral boundary imposed by the coasts as a zero condition on the wind field, meaning that any winds at the coast are divergent, and will lead to vertical motions.
+
+Consider a northward wind at bondi beach. In the scenario, the oceanic ekman transport will be onshore, requiring a downwelling to maintain continuity.
+
+If the winds were southward, however, the ekman transport would reverse and be offshore, requiring an upwelling of deeper waters to balance the flow. This coastal upwelling brings cold, nutrient rich waters to the surface, great for biology and sharks and fishing, but terrible for swimming.
+
