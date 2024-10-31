@@ -1,0 +1,15 @@
+Conserving Potential Vorticity - why are flows zonal?
+
+Our fairly rapid introduction to stratified flow dynamics on rotating planet and their implications for Earth’s climate has reached a point where we have discovered the concept of potential vorticity, which is a conserved property of fluids that is particularly useful for predicting the time evolution of flows. Here we are going to take a look at the consequences of conserving potential vorticity and how this relates to the structure and behaviour of Earth’s atmosphere and its general circulation.
+
+Remember that the potential vorticity is the ratio of the absolute vorticity, which is the planetary vorticity f plus the relative vorticity zeta, to the depth of the fluid h. The total time derivative of this quantity is zero.
+
+Let’s start by comparing the sizes of these terms in the absolute vorticity expression: that is, doing a scaling analysis to find the ratio of the relative to planetary vorticity. From previous lectures, we have seem that the timescale for the planetary vorticity is simply f, the coriolis parameter, so that is straight forward. For the relative vorticity, its definition is the cross-stream velocity gradient, or the cross-stream horizontal shear. So it itself is a ratio of a velocity change to a lengthscale. If we say that the velocity change will scale with the horizontal velocity scale U (which implies that any given point in time, somewhere in the system the velocity is at U, and somewhere else the velocity is zero), and that the horizontal lenghtscale is just L, we can express a scaling for the relative vorticity as U on L.
+
+So now we want their ratio of zeta on f; which gives us the term U on fL, which you might recognise as the Rossby number. This is the number that tells us when rotation is important; for small Rossby number, the corilis acceleration dominates over the inertial terms and the geostrophic balance is in effect. For large Rossby numbers, the fact that the planet has a background rotation is not leading order for the dynamics of interest.
+
+We know that the general case for Earth is that the Rossby number is small, much less than 1, which tells us that the ratio of zeta to f is much less than 1. So when we are considering the absolute vorticity, f plus zeta, for general condition, this can be approximated simply as f.
+
+So this has follow on effects, especially when conserving potential vorticity; the general conditions where zeta is much less than f implies that the conservation of potential vorticity is actually the conservation of f on h; that means that flow will tend to follow f on h contours. And if h doesn’t change that much, like in the atmosphere where h goes from 15km at the equator to 10km at the poles, the flow for general condition will tend to follow contours of f. This means that in general, the flows will tend to be zonal, or east west oriented.
+
+This is perhaps most obvious when looking at another planet that has a much stronger f, and much more of a scale separation between zeta and f; Jupiter is known for having these distinct zonal bands, which are the flows following contours of f.
