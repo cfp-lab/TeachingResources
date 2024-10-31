@@ -1,0 +1,36 @@
+SUMMARY THUS FAR
+
+So at this point we should just take a quick breath and recap what we have covered so far.
+
+We started out by looking at the job of the climate, to balance Earth’s radiation budget, and acknowledging that the vast majority of this job is achieved by fluid dynamics, stratified rotating fluid dynamics, which take place within the climate system, specifically the oceans and atmosphere. So we wanted a quick primer on some basic fluid dynamics that are important for understanding the fluid dynamics of Earth’s climate.
+
+This began with the continuity equation, that states that mass in conserved within a fluid.
+
+We needed to cover the total time derivative, which allows us to describe a fluid that is accelerating but also steady.
+
+The law of conservation of momentum gave us the navier stokes momentum equation, in which we see that non-rotating fluid accelerations can be driven by 3 distinct forces; gravity, pressure and viscosity.
+
+The vertical component of the momentum equation reduces to the hydrostatic balance, which states that the pressure at a given point is simply the sum of the mass all the fluid above it.
+
+We then saw how density of a fluid can change as a function of its temperature or salinity, and used an equation of state to describe this.
+
+When the density of a fluid is a function of its depth, the fluid is referred to a stratified, and the strength of the stratification can be quantified by the buoyancy frequency N.
+
+We then introduced rotation into the mix, and saw that an additional 2 forces appear in the navier stokes momentum equations; the centrifugal force and the coriolis force.
+
+In terms of Earth’s climate, the centrifugal force doesn’t have a major contribution but it has shaped Earth into an oblate sphere and results in the fluid surfaces taking on a geopotential.
+
+The coriolis force is far more influential and leads to fluid flows being deflected to their left in the southern hemisphere and to their right in the northern hemisphere.
+
+A scaling analysis of the rotating navier stokes equations gave us the hydrostatic balance again in the vertical, and the geostrophic balance in the horizontal; this geostrophic balance tells us that the coriolis force is balanced by the cross-flow pressure gradient, which means that flow tends to flow along isobars and not across isobars.
+
+The consequences of geostrophy allow us to calculate wind speed from pressure gradients, or ocean transport from surface slope measurements.
+
+Allowing the pressure gradient to be a result of a density gradient gives us the thermal wind equation, which is particularly useful for quantifying ocean transport between stationary moorings.
+
+We then started to ask what happens when geostrophy is broken; we started with a case where viscosity slows the geostrophic flow near to a boundary, causing the geostrophic balance to be broken and differential flow driven in the viscous ekman boundary layer. When there is a divergence in the flow in the ekman boundary layer, this is accommodated by a vertical flux into or out of the ekman layer, which can drive up- or downwelling throughout the fluid columkn. In the atmosphere, this can occur in storms as central updrafts and intensified rains, or in high pressure systems as stabiliing downwelling and clear sky conditions. In the ocean, the ekman pumping can bring cool waters up onto the coast. This ekman process really is an efficient way of transferring momentum and energy vertically through the fluid column.
+
+We then allowed for a time-dependent term to be incorporated into the geostrophic balance so as to be able to predict the time evolution of flow states. This returned the concept of vorticity, and we came across the relative vorticity, planetary vorticity, absolute vorticity, and finally the all important potential vorticity, which is incredibly useful for weather forecasts and climate projection models.
+
+Next week we’ll take these tool that we have developed up to now and start applying them in earnest to specific aspects of Earth’s climate.
+
