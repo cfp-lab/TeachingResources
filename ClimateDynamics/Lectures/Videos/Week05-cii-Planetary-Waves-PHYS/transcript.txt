@@ -25,3 +25,123 @@ There is no such constraint on the meridional phase speed, meaning the waves can
 The longest waves have the maximum phase speed, approaching beta times the Rossby radius squared. This can still be much slower than the background flow speeds.
 
 Planetary Rossby waves arise because f changes with latitude, and perturbations to the geostrophic flow need to take this into account to conserve potential vorticity.
+
+
+
+
+
+We are examining the conservation of potential vorticity, and have just been through the process of deriving the planetary Rossby wave equation, which describes the organisation of small perturbations into larger, coherent fluctuations that ride on top of the background geostrophic flow.
+
+These planetary rossby waves arise because of the latitudinal dependence of the coriolis parameter, which we can linearise with the beta-plane approximation.
+
+Planetary rossby waves are responsible for much of the weather we experience at mid latitudes, 
+
+and perhaps the best know example of thesewaves are the regular latituninal fluctuations in the location of the jet stream, the strong eastward winds that blow in the upper atmosphere over north america, europe and asia.
+
+
+
+
+
+Our derivation included integrating the continuity equation over some layer depth H and substituting into this the geostrophic plus ageostrophic horizontal velocities, where the pressure terms have been expressed in terms of eta, which are small perturbations on the free surface height, and where this term R, which we call the Rossby radius, is given as square root of g H on f nought.
+
+
+
+This derivation gives us the rate of change of eta minus the rossby radius squared times the rate of change of the laplacian of eta, minus the rossby radius squared times beta times the x derivative of eta.
+
+
+
+Here we will look into the dynamics described by this wave equation.
+
+Recall that we can consider the small ageostrophic perturbations as a wave with zero time mean component.
+
+This allows us to give them the form of eta equals some reference eta times cosine of kx minus my minus omega t, where k and m are zonal and meridional wavenumbers, respectively, and omega is the wave frequency.
+
+
+
+Assuming this form allows us to rewrite the Rossby wave equation in terms of omega, giving us a dispersion relation for Rossby waves,
+
+omega equals the negative of beta times the Rossby radius squared times k on one plus R squared outside of k squared plus m squared.
+
+Lets take a look at what this dispersion relation is telling us about the frequency of Rossby waves.
+
+
+
+
+
+
+
+
+
+
+
+
+Firstly, for beta = 0, omega = 0 and we have no travelling waves, just steady, geostrophic flow at constant f.
+
+That is, planetary rossby waves require a spatial change in f.
+
+
+We have assumed that the Rossby number is small, that is the wave speed of the perturbations are small and/or the wavelengths of the perturbations are large, either way this means that the solution is only valid when the frequency of the perturbations omega is much smaller than the frequency of Earths rotation.
+
+
+
+Think of k,m as 1/L some lenght scale. It follows that the perturbation frequency omega goes as beta times Rossby raduis squared times the lenghtscale L on L squared plus R squared.
+
+This means that for short waves, where L is less than R, omega becomes beta L, and that for long waves, where L is greater than R, omega becomes beta R squared on L, which is less than beta L.
+
+
+
+Interestingly, this also suggests a maximum in the frequency for L is the Rossby radius, a maximum frequency of beta R on 2. Perturbations at higher frequencies than this are unable to directly excite planetary Rossby waves.
+
+
+
+
+
+
+
+
+
+
+
+
+Now lets consider the propagation of planetary Rossby waves.
+
+
+The zonal phase speed is omega on k, which is negative beta R squared one on 1 plus R2 outside k2 plus m2. There is no way this can be positive, which means the zonal phase speed of Rossby waves is always westward. Remember that these waves are small perturbations about the geostrophic flow, which can be eastward and faster than the zonal phase speed of Rossby waves, so the planetary Rossby waves can be blown eastward by the background flow, but they themselves are always propagating westward.
+
+
+
+There is no such constraint on the meridional phase speed, meaning the waves can propagate westward between northwest and southwest.
+
+
+The longest waves are those that have the maximum phase speed, which approaches beta times the Rossby radius squared. Remember that this speed can still be much slower than the background flow speeds.
+
+
+
+
+
+
+Lets have a quick look at the physical implications of this derived wave equation.
+
+Picture some point on Earth where you have a gradient of f from low f in the south to high f in the north, without any change in h.
+
+Imagine a stream path that follows along some contour of f.
+
+Now picture that the streampath is perturbed in some way, and that the perturbation can be described as a wave, taking some portions of flow into regions of higher f and some portions into regions of lower f.
+
+In regions where the stream path has moved to higher f, fluid on the stream path will reduce its relative vorticity so as to maintain potential vorticity. In doing so it will be rotating clockwise relative to its surrounds.
+
+For fluid on the stream path that moves into regions of smaller planetary vorticity, to maintain potential vorticity it will have to increase its relative vorticity, and be rotating anti-clockwise relative to its new surrounds.
+
+
+So, when we consider the net effect of these perturbations on the original stream path, we can see how they tend to promote a westward propagation along the stream path.
+
+
+
+
+
+
+
+
+
+
+
